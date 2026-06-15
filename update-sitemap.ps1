@@ -19,7 +19,10 @@ $exclude = @(
 )
 
 $htmlFiles = Get-ChildItem -Path "." -Filter "*.html" |
-    Where-Object { $exclude -notcontains $_.Name } |
+    Where-Object {
+        $exclude -notcontains $_.Name -and
+        $_.Name -notlike 'seo-consultant-*.html'
+    } |
     Sort-Object Name
 
 function Get-SitemapMeta {
@@ -97,10 +100,6 @@ function Get-SitemapMeta {
 
     if ($educationPages -contains $fileName) {
         return @{ Order = 50; Priority = '0.75'; ChangeFreq = 'monthly' }
-    }
-
-    if ($fileName -like 'seo-consultant-*.html') {
-        return @{ Order = 60; Priority = '0.80'; ChangeFreq = 'monthly' }
     }
 
     return @{ Order = 90; Priority = '0.64'; ChangeFreq = 'monthly' }
