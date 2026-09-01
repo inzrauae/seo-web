@@ -1,0 +1,17 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html/
+    - /usr/bin/rsync -rvc
+        --exclude='.git'
+        --exclude='.cpanel.yml'
+        --exclude='.gitignore'
+        --exclude='*.ps1'
+        --exclude='*.backup'
+        --exclude='gittt.zip'
+        --exclude='seo.zip'
+        --exclude='LOCAL-SERVER-SETUP.txt'
+        --exclude='URL-EXTENSION-REMOVAL-SUMMARY.txt'
+        --exclude='SECURITY.md'
+        --exclude='SITEMAP-README.md'
+        ./ $DEPLOYPATH
