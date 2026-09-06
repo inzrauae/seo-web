@@ -152,7 +152,15 @@ ErrorDocument 500 /500.html
     ExpiresByType text/css "access plus 1 month"
     ExpiresByType application/javascript "access plus 1 month"
     ExpiresByType text/x-javascript "access plus 1 month"
+    ExpiresByType text/html "access plus 0 seconds"
     ExpiresDefault "access plus 7 days"
+</IfModule>
+
+# HTML pages must always revalidate so deploys show up immediately
+<IfModule mod_headers.c>
+    <FilesMatch "\.html$">
+        Header set Cache-Control "no-cache, must-revalidate"
+    </FilesMatch>
 </IfModule>
 
 # ================================================
