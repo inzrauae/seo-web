@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node theme-recolor.js index.html)",
+      "Bash(grep -oE '\\(color|background\\(-color\\)?|border[a-z-]*\\)\\\\s*:\\\\s*\\(var\\\\\\(--[a-z-]+\\\\\\)|#[0-9a-fA-F]{3,6}\\)' index.html)",
+      "Bash(grep -oE '\\(color|background\\(-color\\)?|border[a-z-]*\\)\\\\s*:\\\\s*\\(var\\\\\\(--[a-z-]+\\\\\\)|#[0-9a-fA-F]{3,6}|rgba?\\\\\\([^\\)]*\\\\\\)\\)' index.html)"
+    ]
+  }
+}
