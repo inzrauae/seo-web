@@ -34,33 +34,101 @@ Options -Indexes
 # RETIRED PAGE REDIRECTS (301)
 # Keep above the extension-removal block so these fire first.
 # ================================================
-Redirect 301 /seo-service-in-sri-lanka.html https://seoconsultantsrilanka.com/seo-sri-lanka
-Redirect 301 /seo-service-in-sri-lanka https://seoconsultantsrilanka.com/seo-sri-lanka
-Redirect 301 /best-seo-company-sri-lanka.html https://seoconsultantsrilanka.com/seo-company-sri-lanka
-Redirect 301 /best-seo-company-sri-lanka https://seoconsultantsrilanka.com/seo-company-sri-lanka
-Redirect 301 /seo-service-sri-lanka.html https://seoconsultantsrilanka.com/contact
-Redirect 301 /seo-service-sri-lanka https://seoconsultantsrilanka.com/contact
-Redirect 301 /seoservice-lk-sri-lanka.html https://seoconsultantsrilanka.com/seo-company-sri-lanka
-Redirect 301 /seoservice-lk-sri-lanka https://seoconsultantsrilanka.com/seo-company-sri-lanka
+Redirect 301 /seo-service-in-sri-lanka.html https://seoservice.lk/
+Redirect 301 /seo-service-in-sri-lanka https://seoservice.lk/
+Redirect 301 /best-seo-company-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /best-seo-company-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /seo-service-sri-lanka.html https://seoservice.lk/
+Redirect 301 /seo-service-sri-lanka https://seoservice.lk/
+Redirect 301 /seoservice-lk-sri-lanka.html https://seoservice.lk/
+Redirect 301 /seoservice-lk-sri-lanka https://seoservice.lk/
 Redirect 301 /pricing.html https://seoconsultantsrilanka.com/contact
 Redirect 301 /pricing https://seoconsultantsrilanka.com/contact
 
 # Town-level redirects (these towns are not standalone districts; they route
 # to the nearest district/hub page instead of getting their own page)
-Redirect 301 /seo-consultant-bandarawela.html https://seoconsultantsrilanka.com/seo-consultant-badulla
-Redirect 301 /seo-consultant-bandarawela https://seoconsultantsrilanka.com/seo-consultant-badulla
-Redirect 301 /seo-consultant-chilaw.html https://seoconsultantsrilanka.com/seo-consultant-puttalam
-Redirect 301 /seo-consultant-chilaw https://seoconsultantsrilanka.com/seo-consultant-puttalam
+Redirect 301 /seo-consultant-bandarawela.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-bandarawela https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-chilaw.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-chilaw https://seoconsultantsrilanka.com/
 Redirect 301 /seo-consultant-dehiwala-mount-lavinia.html https://seoconsultantsrilanka.com/seo-consultant-colombo
 Redirect 301 /seo-consultant-dehiwala-mount-lavinia https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-kalmunai.html https://seoconsultantsrilanka.com/seo-consultant-ampara
-Redirect 301 /seo-consultant-kalmunai https://seoconsultantsrilanka.com/seo-consultant-ampara
+Redirect 301 /seo-consultant-kalmunai.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-kalmunai https://seoconsultantsrilanka.com/
 Redirect 301 /seo-consultant-moratuwa.html https://seoconsultantsrilanka.com/seo-consultant-colombo
 Redirect 301 /seo-consultant-moratuwa https://seoconsultantsrilanka.com/seo-consultant-colombo
 Redirect 301 /seo-consultant-sri-jayawardenepura-kotte.html https://seoconsultantsrilanka.com/seo-consultant-colombo
 Redirect 301 /seo-consultant-sri-jayawardenepura-kotte https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-tangalle.html https://seoconsultantsrilanka.com/seo-consultant-hambantota
-Redirect 301 /seo-consultant-tangalle https://seoconsultantsrilanka.com/seo-consultant-hambantota
+Redirect 301 /seo-consultant-tangalle.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-tangalle https://seoconsultantsrilanka.com/
+
+# Retired city pages: 18 near-identical, script-generated city landing pages folded into the
+# homepage (Negombo goes to its district page). The 8 main city pages stay.
+Redirect 301 /seo-consultant-ampara.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-ampara https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-anuradhapura.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-anuradhapura https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-badulla.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-badulla https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-batticaloa.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-batticaloa https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-hambantota.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-hambantota https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-kegalle.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-kegalle https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-kilinochchi.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-kilinochchi https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-mannar.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-mannar https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-matale.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-matale https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-monaragala.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-monaragala https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-mullaitivu.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-mullaitivu https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-negombo.html https://seoconsultantsrilanka.com/seo-consultant-gampaha
+Redirect 301 /seo-consultant-negombo https://seoconsultantsrilanka.com/seo-consultant-gampaha
+Redirect 301 /seo-consultant-nuwara-eliya.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-nuwara-eliya https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-polonnaruwa.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-polonnaruwa https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-puttalam.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-puttalam https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-ratnapura.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-ratnapura https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-trincomalee.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-trincomalee https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-vavuniya.html https://seoconsultantsrilanka.com/
+Redirect 301 /seo-consultant-vavuniya https://seoconsultantsrilanka.com/
+
+# ================================================
+# TOPICS OWNED BY SEOSERVICE.LK (301)
+# Company, services, pricing and technical-topic pages live on seoservice.lk;
+# this site keeps the founder's consultant, specialist, expert, city and
+# learning pages. One topic, one URL across both domains.
+# ================================================
+Redirect 301 /seo-sri-lanka.html https://seoservice.lk/seo-sri-lanka
+Redirect 301 /seo-sri-lanka https://seoservice.lk/seo-sri-lanka
+Redirect 301 /services.html https://seoservice.lk/services
+Redirect 301 /services https://seoservice.lk/services
+Redirect 301 /seo-company-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /seo-company-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /seo-agency-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /seo-agency-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
+Redirect 301 /seo-price-in-sri-lanka.html https://seoservice.lk/seo-cost-sri-lanka
+Redirect 301 /seo-price-in-sri-lanka https://seoservice.lk/seo-cost-sri-lanka
+Redirect 301 /ecommerce-seo-sri-lanka.html https://seoservice.lk/ecommerce-seo
+Redirect 301 /ecommerce-seo-sri-lanka https://seoservice.lk/ecommerce-seo
+Redirect 301 /local-seo-sri-lanka.html https://seoservice.lk/local-seo
+Redirect 301 /local-seo-sri-lanka https://seoservice.lk/local-seo
+Redirect 301 /on-page-seo-sri-lanka.html https://seoservice.lk/on-page-seo
+Redirect 301 /on-page-seo-sri-lanka https://seoservice.lk/on-page-seo
+Redirect 301 /technical-seo-sri-lanka.html https://seoservice.lk/technical-seo
+Redirect 301 /technical-seo-sri-lanka https://seoservice.lk/technical-seo
+Redirect 301 /seo-audit-sri-lanka.html https://seoservice.lk/seo-audits
+Redirect 301 /seo-audit-sri-lanka https://seoservice.lk/seo-audits
+Redirect 301 /google-maps-seo-sri-lanka.html https://seoservice.lk/google-map-pack-sri-lanka
+Redirect 301 /google-maps-seo-sri-lanka https://seoservice.lk/google-map-pack-sri-lanka
 
 # ================================================
 # REMOVE .HTML EXTENSION FROM URLS
@@ -91,10 +159,10 @@ ErrorDocument 500 /500.html
 # ================================================
 <IfModule mod_rewrite.c>
     RewriteRule ^ai\ seo/?$ /ai-seo [R=301,L,NC]
-    RewriteRule ^best\ seo\ company\ in\ sri\ lanka/?$ /seo-company-sri-lanka [R=301,L,NC]
+    RewriteRule ^best\ seo\ company\ in\ sri\ lanka/?$ https://seoservice.lk/best-seo-company-in-sri-lanka [R=301,L,NC]
     RewriteRule ^seo\ expert\ in\ srilanka/?$ /seo-expert-sri-lanka [R=301,L,NC]
     RewriteRule ^seo\ specialist\ sri\ lanka/?$ /seo-specialist-sri-lanka [R=301,L,NC]
-    RewriteRule ^seo\ sri\ lanka/?$ /seo-sri-lanka [R=301,L,NC]
+    RewriteRule ^seo\ sri\ lanka/?$ https://seoservice.lk/seo-sri-lanka [R=301,L,NC]
 </IfModule>
 
 # ================================================
