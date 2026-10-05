@@ -78,7 +78,7 @@ foreach ($city in $cities) {
         <meta property="og:url" content="https://seoconsultantsrilanka.com/seo-consultant-$($city.slug).html">
         <meta property="og:image" content="https://seoconsultantsrilanka.com/assets/img/seo-logo.png">
         <meta property="og:locale" content="en_US">
-        <meta property="og:site_name" content="Buddhika S Weerasekara - SEO Consultant Sri Lanka">
+        <meta property="og:site_name" content="SEO Consultant Sri Lanka">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="SEO Consultant in $($city.name) | Buddhika S Weerasekara">
         <meta name="twitter:description" content="Professional SEO Consultant $($city.name) with expertise in white-hat SEO and guaranteed Google rankings.">
