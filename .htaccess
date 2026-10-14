@@ -131,6 +131,14 @@ Redirect 301 /google-maps-seo-sri-lanka.html https://seoservice.lk/google-map-pa
 Redirect 301 /google-maps-seo-sri-lanka https://seoservice.lk/google-map-pack-sri-lanka
 
 # ================================================
+# SEO SPECIALIST PAGE LIVES ON seoservice.lk
+# ================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^seo-specialist-sri-lanka(\.html)?/?$ https://seoservice.lk/seo-specialist-sri-lanka [R=301,L]
+</IfModule>
+
+# ================================================
 # REMOVE .HTML EXTENSION FROM URLS
 # ================================================
 <IfModule mod_rewrite.c>
@@ -161,7 +169,7 @@ ErrorDocument 500 /500.html
     RewriteRule ^ai\ seo/?$ /ai-seo [R=301,L,NC]
     RewriteRule ^best\ seo\ company\ in\ sri\ lanka/?$ https://seoservice.lk/best-seo-company-in-sri-lanka [R=301,L,NC]
     RewriteRule ^seo\ expert\ in\ srilanka/?$ /seo-expert-sri-lanka [R=301,L,NC]
-    RewriteRule ^seo\ specialist\ sri\ lanka/?$ /seo-specialist-sri-lanka [R=301,L,NC]
+    RewriteRule ^seo\ specialist\ sri\ lanka/?$ https://seoservice.lk/seo-specialist-sri-lanka [R=301,L,NC]
     RewriteRule ^seo\ sri\ lanka/?$ https://seoservice.lk/seo-sri-lanka [R=301,L,NC]
 </IfModule>
 
