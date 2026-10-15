@@ -20,158 +20,11 @@
 Options -Indexes
 
 # ================================================
-# HOST / PROTOCOL CANONICALIZATION
-# Canonical tags site-wide use bare https://seoconsultantsrilanka.com
-# ================================================
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteCond %{HTTPS} off [OR]
-    RewriteCond %{HTTP_HOST} ^www\.seoconsultantsrilanka\.com$ [NC]
-    RewriteRule ^ https://seoconsultantsrilanka.com%{REQUEST_URI} [R=301,L]
-</IfModule>
-
-# ================================================
-# RETIRED PAGE REDIRECTS (301)
-# Keep above the extension-removal block so these fire first.
-# ================================================
-Redirect 301 /seo-service-in-sri-lanka.html https://seoservice.lk/
-Redirect 301 /seo-service-in-sri-lanka https://seoservice.lk/
-Redirect 301 /best-seo-company-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /best-seo-company-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /seo-service-sri-lanka.html https://seoservice.lk/
-Redirect 301 /seo-service-sri-lanka https://seoservice.lk/
-Redirect 301 /seoservice-lk-sri-lanka.html https://seoservice.lk/
-Redirect 301 /seoservice-lk-sri-lanka https://seoservice.lk/
-Redirect 301 /pricing.html https://seoconsultantsrilanka.com/contact
-Redirect 301 /pricing https://seoconsultantsrilanka.com/contact
-
-# Town-level redirects (these towns are not standalone districts; they route
-# to the nearest district/hub page instead of getting their own page)
-Redirect 301 /seo-consultant-bandarawela.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-bandarawela https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-chilaw.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-chilaw https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-dehiwala-mount-lavinia.html https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-dehiwala-mount-lavinia https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-kalmunai.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-kalmunai https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-moratuwa.html https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-moratuwa https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-sri-jayawardenepura-kotte.html https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-sri-jayawardenepura-kotte https://seoconsultantsrilanka.com/seo-consultant-colombo
-Redirect 301 /seo-consultant-tangalle.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-tangalle https://seoconsultantsrilanka.com/
-
-# Retired city pages: 18 near-identical, script-generated city landing pages folded into the
-# homepage (Negombo goes to its district page). The 8 main city pages stay.
-Redirect 301 /seo-consultant-ampara.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-ampara https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-anuradhapura.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-anuradhapura https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-badulla.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-badulla https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-batticaloa.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-batticaloa https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-hambantota.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-hambantota https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-kegalle.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-kegalle https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-kilinochchi.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-kilinochchi https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-mannar.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-mannar https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-matale.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-matale https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-monaragala.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-monaragala https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-mullaitivu.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-mullaitivu https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-negombo.html https://seoconsultantsrilanka.com/seo-consultant-gampaha
-Redirect 301 /seo-consultant-negombo https://seoconsultantsrilanka.com/seo-consultant-gampaha
-Redirect 301 /seo-consultant-nuwara-eliya.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-nuwara-eliya https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-polonnaruwa.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-polonnaruwa https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-puttalam.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-puttalam https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-ratnapura.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-ratnapura https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-trincomalee.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-trincomalee https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-vavuniya.html https://seoconsultantsrilanka.com/
-Redirect 301 /seo-consultant-vavuniya https://seoconsultantsrilanka.com/
-
-# ================================================
-# TOPICS OWNED BY SEOSERVICE.LK (301)
-# Company, services, pricing and technical-topic pages live on seoservice.lk;
-# this site keeps the founder's consultant, specialist, expert, city and
-# learning pages. One topic, one URL across both domains.
-# ================================================
-Redirect 301 /seo-sri-lanka.html https://seoservice.lk/seo-sri-lanka
-Redirect 301 /seo-sri-lanka https://seoservice.lk/seo-sri-lanka
-Redirect 301 /services.html https://seoservice.lk/services
-Redirect 301 /services https://seoservice.lk/services
-Redirect 301 /seo-company-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /seo-company-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /seo-agency-sri-lanka.html https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /seo-agency-sri-lanka https://seoservice.lk/best-seo-company-in-sri-lanka
-Redirect 301 /seo-price-in-sri-lanka.html https://seoservice.lk/seo-cost-sri-lanka
-Redirect 301 /seo-price-in-sri-lanka https://seoservice.lk/seo-cost-sri-lanka
-Redirect 301 /ecommerce-seo-sri-lanka.html https://seoservice.lk/ecommerce-seo
-Redirect 301 /ecommerce-seo-sri-lanka https://seoservice.lk/ecommerce-seo
-Redirect 301 /local-seo-sri-lanka.html https://seoservice.lk/local-seo
-Redirect 301 /local-seo-sri-lanka https://seoservice.lk/local-seo
-Redirect 301 /on-page-seo-sri-lanka.html https://seoservice.lk/on-page-seo
-Redirect 301 /on-page-seo-sri-lanka https://seoservice.lk/on-page-seo
-Redirect 301 /technical-seo-sri-lanka.html https://seoservice.lk/technical-seo
-Redirect 301 /technical-seo-sri-lanka https://seoservice.lk/technical-seo
-Redirect 301 /seo-audit-sri-lanka.html https://seoservice.lk/seo-audits
-Redirect 301 /seo-audit-sri-lanka https://seoservice.lk/seo-audits
-Redirect 301 /google-maps-seo-sri-lanka.html https://seoservice.lk/google-map-pack-sri-lanka
-Redirect 301 /google-maps-seo-sri-lanka https://seoservice.lk/google-map-pack-sri-lanka
-
-# ================================================
-# SEO SPECIALIST PAGE LIVES ON seoservice.lk
-# ================================================
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^seo-specialist-sri-lanka(\.html)?/?$ https://seoservice.lk/seo-specialist-sri-lanka [R=301,L]
-</IfModule>
-
-# ================================================
-# REMOVE .HTML EXTENSION FROM URLS
-# ================================================
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /
-
-    # Redirect external requests to non-extension version
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.html [NC]
-    RewriteRule ^ %1 [R=301,L]
-
-    # Internally rewrite non-extension requests to .html
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^([^\.]+)$ $1.html [L]
-</IfModule>
-
-# ================================================
 # CUSTOM ERROR PAGES
 # ================================================
 ErrorDocument 403 /403.html
 ErrorDocument 404 /404.html
 ErrorDocument 500 /500.html
-
-# ================================================
-# LEGACY SPACE-SLUG REDIRECTS (ported from web.config, never active on Apache)
-# ================================================
-<IfModule mod_rewrite.c>
-    RewriteRule ^ai\ seo/?$ /ai-seo [R=301,L,NC]
-    RewriteRule ^best\ seo\ company\ in\ sri\ lanka/?$ https://seoservice.lk/best-seo-company-in-sri-lanka [R=301,L,NC]
-    RewriteRule ^seo\ expert\ in\ srilanka/?$ /seo-expert-sri-lanka [R=301,L,NC]
-    RewriteRule ^seo\ specialist\ sri\ lanka/?$ https://seoservice.lk/seo-specialist-sri-lanka [R=301,L,NC]
-    RewriteRule ^seo\ sri\ lanka/?$ https://seoservice.lk/seo-sri-lanka [R=301,L,NC]
-</IfModule>
 
 # ================================================
 # BASIC WAF (ported from web.config, never active on Apache)
@@ -181,6 +34,53 @@ ErrorDocument 500 /500.html
     RewriteCond %{QUERY_STRING} (<|%3C).*script.*(>|%3E) [NC,OR]
     RewriteCond %{QUERY_STRING} (\.\./|\.\.\\|etc/passwd|boot\.ini) [NC]
     RewriteRule ^ - [F,L]
+</IfModule>
+
+# ================================================
+# MIGRATE PAGES TO SEOSERVICE.LK
+# Exact destination paths below are present in the supplied sitemap.
+# Unmatched page URLs are retired to the new homepage.
+# ================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    RewriteRule ^$ https://seoservice.lk/ [R=301,L]
+    RewriteRule ^(?:index(?:\.html)?)$ https://seoservice.lk/ [R=301,L]
+
+    # Sitemap and crawler instructions belong to the destination site.
+    RewriteRule ^(?:sitemap\.xml|assets/sitemap\.xml)$ https://seoservice.lk/sitemap.xml [R=301,L]
+    RewriteRule ^robots\.txt$ https://seoservice.lk/robots.txt [R=301,L]
+
+    # Legacy slugs that have a corresponding destination page.
+    RewriteRule ^(?:best-seo-company-sri-lanka|seo-company-sri-lanka|seo-agency-sri-lanka)(?:\.html)?/?$ https://seoservice.lk/seo-company-sri-lanka [R=301,L]
+    RewriteRule ^seo-price-in-sri-lanka(?:\.html)?/?$ https://seoservice.lk/seo-cost-sri-lanka [R=301,L]
+    RewriteRule ^(?:ecommerce-seo-sri-lanka|ecommerce-seo)(?:\.html)?/?$ https://seoservice.lk/ecommerce-seo [R=301,L]
+    RewriteRule ^local-seo-sri-lanka(?:\.html)?/?$ https://seoservice.lk/local-seo [R=301,L]
+    RewriteRule ^on-page-seo-sri-lanka(?:\.html)?/?$ https://seoservice.lk/on-page-seo [R=301,L]
+    RewriteRule ^technical-seo-sri-lanka(?:\.html)?/?$ https://seoservice.lk/technical-seo [R=301,L]
+    RewriteRule ^seo-audit-sri-lanka(?:\.html)?/?$ https://seoservice.lk/seo-audits [R=301,L]
+    RewriteRule ^google-maps-seo-sri-lanka(?:\.html)?/?$ https://seoservice.lk/google-map-pack-sri-lanka [R=301,L]
+    RewriteRule ^seo-consultant-sri-lanka-guide(?:\.html)?/?$ https://seoservice.lk/seo-consultant-sri-lanka [R=301,L]
+    RewriteRule ^how-to-become-seo-specialist(?:\.html)?/?$ https://seoservice.lk/how-to-become-an-seo-specialist-in-sri-lanka [R=301,L]
+    RewriteRule ^seo-consultant-(colombo|gampaha|kalutara|kandy|galle|matara|jaffna|kurunegala)(?:\.html)?/?$ https://seoservice.lk/seo-services-$1 [R=301,L]
+    RewriteRule ^seo-consultant-(dehiwala-mount-lavinia|moratuwa|sri-jayawardenepura-kotte)(?:\.html)?/?$ https://seoservice.lk/seo-services-colombo [R=301,L]
+    RewriteRule ^seo-consultant-negombo(?:\.html)?/?$ https://seoservice.lk/seo-services-gampaha [R=301,L]
+
+    # Keep every exact destination URL from the supplied sitemap on the same
+    # path at the new domain, including requests that still use .html.
+    RewriteRule ^(about|seo-consultant-sri-lanka|seo-specialist-sri-lanka|services|free-seo-checker|technical-seo|on-page-seo|off-page-seo|local-seo|ecommerce-seo|international-seo|seo-audits|keyword-research|seo-content-strategy|link-building|generative-engine-optimization|ai-search-optimization|chatgpt-visibility-optimization|google-ai-overview-optimization|perplexity-optimization|ai-citation-optimization|llm-content-optimization|ai-search-visibility-tracking|brand-entity-optimization|case-studies|customer-reviews|pricing|blog|seo-sri-lanka|contact|privacy-policy|terms|locations|google-seo)(?:\.html)?/?$ https://seoservice.lk/$1 [R=301,L]
+    RewriteRule ^(possystem-lk-seo-case-study|gauraconstruction-lk-seo-case-study|lankatourdriver-com-seo-case-study|themerchlist-com-seo-case-study|mypalmfit-com-seo-case-study|tuktukceylonrides-com-seo-case-study|vapourzlounge-co-uk-seo-case-study)(?:\.html)?/?$ https://seoservice.lk/$1 [R=301,L]
+    RewriteRule ^(google-algorithm-update-recovery|link-building-guide-2026|ecommerce-seo-checklist|title-tags-meta-descriptions-guide|international-seo-guide|how-to-rank-in-google-maps-colombo|core-web-vitals-guide|google-map-pack-sri-lanka|how-to-get-cited-in-chatgpt-perplexity-google-ai-overviews|how-google-ranking-works-for-sri-lankan-businesses|local-seo-outside-colombo-sri-lanka|seo-case-study-lessons-what-client-results-teach|how-to-target-uk-and-uae-customers-from-sri-lanka|seo-vs-google-ads|website-migration-seo-checklist|seo-content-calendar|seo-cost-sri-lanka|get-cited-by-ai-search|llms-txt-guide|sinhala-tamil-english-seo|schema-markup-guide)(?:\.html)?/?$ https://seoservice.lk/$1 [R=301,L]
+    RewriteRule ^(seo-services-colombo|seo-services-gampaha|seo-services-kalutara|seo-services-kandy|seo-services-galle|seo-services-matara|seo-services-jaffna|seo-services-kurunegala|how-to-become-an-seo-specialist-in-sri-lanka)(?:\.html)?/?$ https://seoservice.lk/$1 [R=301,L]
+
+    # Keep the configured local error documents available to Apache.
+    RewriteRule ^(?:403|404|500)\.html$ - [L]
+
+    # Static resources on this server are not page redirects.
+    RewriteRule ^(?:assets/|\.well-known/).* - [L]
+
+    # Any retired or unknown page URL has no destination in the new sitemap.
+    RewriteRule ^ https://seoservice.lk/ [R=301,L]
 </IfModule>
 
 # Block direct access to sensitive file types even if linked/discovered
