@@ -310,6 +310,7 @@ p { margin: 0 0 16px; }
   position: relative;
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(212,175,55,.4); }
+.card h2 { font-size: 19px; letter-spacing: -0.01em; }
 .card .icon {
   width: 50px; height: 50px;
   display: flex; align-items: center; justify-content: center;
@@ -558,3 +559,14 @@ p { margin: 0 0 16px; }
   .form-grid { grid-template-columns: 1fr; }
   .audit-box { padding: 24px 18px; }
 }
+
+/* Case study pages */
+.cs-tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 24px; }
+.cs-tags span { background: var(--surface); border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px; font-size: 13px; font-weight: 600; }
+.cs-stat { text-align: center; }
+.cs-stat-value { font-family: "Poppins", sans-serif; font-size: 40px; font-weight: 800; color: var(--accent); line-height: 1.1; }
+.cs-stat p { margin: 6px 0 0; }
+.cs-figure { max-width: 860px; margin: 0 auto 32px; }
+.cs-figure img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: var(--radius); }
+.cs-figure figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 10px; text-align: center; }
+.cs-num { color: var(--accent); margin-right: 10px; }

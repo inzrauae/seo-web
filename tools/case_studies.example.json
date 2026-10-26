@@ -1,0 +1,31 @@
+[
+  {
+    "slug": "example-case-study-slug",
+    "verified": false,
+    "meta_title": "How [Client Type] Grew Organic Clicks [X]% in [Markets]",
+    "title": "How a [Country] [Client Type] Grew Organic Clicks [X]% Across [N] Google Markets",
+    "description": "One sentence: the strategy, the client type and the markets, using only real facts.",
+    "service": "International SEO",
+    "industry": "Education",
+    "markets": "Google.lk, Google.com.au",
+    "duration": "6 months",
+    "date": "2026-01-01",
+    "nda": true,
+    "nda_note": "Optional. Overrides the default NDA wording.",
+    "stats": [
+      {"value": "+XX%", "label": "Organic Clicks"},
+      {"value": "+XX%", "label": "Impressions"},
+      {"value": "N", "label": "Google Markets Ranking"}
+    ],
+    "proof_heading": "3-Month Performance Snapshot",
+    "proof": [
+      {"image": "assets/case-studies/example-case-study-slug/search-console.png",
+       "alt": "Describe exactly what the screenshot shows",
+       "caption": "One sentence explaining what the reader should notice."}
+    ],
+    "methods": ["Technical SEO", "On-Page SEO", "Link building"],
+    "challenge": ["Paragraph 1: the client's situation before the work.", "Paragraph 2: the specific problems found."],
+    "solution": ["Paragraph 1: what you audited and found.", "Paragraph 2: what you implemented, in order."],
+    "result": ["Paragraph 1: the measured outcome, with the date range.", "Paragraph 2: what happened next."]
+  }
+]

@@ -54,7 +54,7 @@ ErrorDocument 500 /500.html
 </IfModule>
 
 # Block direct access to sensitive file types even if linked/discovered
-<FilesMatch "\.(bak|backup|old|sql|log|env|config|ps1|md)$|^(LOCAL-SERVER-SETUP|URL-EXTENSION-REMOVAL-SUMMARY)\.txt$">
+<FilesMatch "\.(bak|backup|old|sql|log|env|config|ps1|md|py)$|^(LOCAL-SERVER-SETUP|URL-EXTENSION-REMOVAL-SUMMARY)\.txt$">
     Require all denied
 </FilesMatch>
 
