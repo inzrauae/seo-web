@@ -21,7 +21,7 @@ e, ld, head, breadcrumb_ld = g.e, g.ld, g.head, g.breadcrumb_ld
 ROOT, SITE, HEADER, FOOTER = g.ROOT, g.SITE, g.HEADER, g.FOOTER
 HUB = "case-studies"
 FOOTER = FOOTER.replace(
-    "Buddhika S. Weerasekara &ndash; Sri Lanka&#39;s <a href=\"/\" style=\"color:#f4d976;font-weight:600;\">#1 SEO Consultant in Sri Lanka</a>. As the leading SEO Consultant Sri Lanka, I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.",
+    "Buddhika S Weerasekara &ndash; Sri Lanka&#39;s <a href=\"/\" style=\"color:#f4d976;font-weight:600;\">#1 SEO Consultant in Sri Lanka</a>. As the leading SEO Consultant Sri Lanka, I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.",
     "SEO Consultant Sri Lanka is powered by Applantics (Pvt) Ltd. Buddhika S Weerasekara provides SEO consulting, technical audits, and Generative Engine Optimization.",
 ).replace(
     '<li><a href="seo-consultant-sri-lanka-guide">SEO consultant guide</a></li>',
@@ -278,6 +278,7 @@ def hub(cases, out_dir):
     html += ld({"@context": "https://schema.org", "@type": "CollectionPage", "@id": url + "#collection", "url": url,
                 "name": title, "description": desc, "inLanguage": "en", "isPartOf": {"@id": SITE + "/#website"},
                 "author": {"@id": SITE + "/#person"}, "publisher": {"@id": SITE + "/#organization"},
+                "dateModified": max(c.get("modified", c["date"]) for c in cases),
                 "mainEntity": {"@type": "ItemList", "numberOfItems": len(cases), "itemListElement": [
                     {"@type": "ListItem", "position": i, "url": f"{SITE}/{c['slug']}", "name": c["title"]}
                     for i, c in enumerate(cases, 1)]}})
@@ -297,6 +298,10 @@ def hub(cases, out_dir):
 
 <section class="section">
     <div class="container">
+        <div class="section-head center">
+            <h2>All {len(cases)} SEO Case Studies</h2>
+            <p>Each campaign lists its industry, market, timeframe, and reported results.</p>
+        </div>
         <div class="grid grid-3">
 {cards}        </div>
     </div>

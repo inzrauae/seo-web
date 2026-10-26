@@ -10,27 +10,29 @@ Founded and run by Buddhika S Weerasekara, 15+ years of hands-on SEO experience.
 
 - [Home](https://seoconsultantsrilanka.com/): Overview of SEO and GEO services, results, and how to get a free SEO audit.
 - [About](https://seoconsultantsrilanka.com/about): Background and experience of Buddhika S Weerasekara.
-- [Services](https://seoservice.lk/services): SEO, GEO, and local link-building service packages.
-- [Pricing](https://seoservice.lk/seo-cost-sri-lanka): SEO package pricing and inclusions in Sri Lanka.
+- [Services](https://seoconsultantsrilanka.com/services): SEO, GEO, and local link-building service packages.
+- [Pricing](https://seoconsultantsrilanka.com/seo-price-in-sri-lanka): SEO package pricing and inclusions in Sri Lanka.
 - [FAQ](https://seoconsultantsrilanka.com/faq): Common questions on SEO pricing, strategy, and timelines.
 - [Contact](https://seoconsultantsrilanka.com/contact): Contact details and free consultation request.
+- [SEO Case Studies](https://seoconsultantsrilanka.com/case-studies): 30 anonymized campaigns with reported clicks, rankings, enquiries, and revenue.
 - [Blog](https://seoconsultantsrilanka.com/blog): SEO and digital marketing articles.
 
 ## Service & topic guides
 
-- [SEO Sri Lanka](https://seoservice.lk/seo-sri-lanka): Nationwide SEO services overview.
-- [SEO Company Sri Lanka](https://seoservice.lk/best-seo-company-in-sri-lanka): How to evaluate and choose an SEO company.
+- [SEO Sri Lanka](https://seoconsultantsrilanka.com/seo-sri-lanka): Nationwide SEO services overview.
+- [SEO Agency Sri Lanka](https://seoconsultantsrilanka.com/seo-agency-sri-lanka): Independent consultant vs. agency comparison.
+- [SEO Company Sri Lanka](https://seoconsultantsrilanka.com/seo-company-sri-lanka): How to evaluate and choose an SEO company.
 - [SEO Expert Sri Lanka](https://seoconsultantsrilanka.com/seo-expert-sri-lanka): SEO expertise, strategy, and local search optimization.
 - [SEO Specialist Sri Lanka](https://seoconsultantsrilanka.com/seo-specialist-sri-lanka): Choosing an SEO specialist with E-E-A-T principles.
 - [SEO Specialist Guide Sri Lanka](https://seoconsultantsrilanka.com/seo-specialist-guide-sri-lanka): Selection criteria and industry trends for hiring a specialist.
 - [SEO Consultant Sri Lanka Guide](https://seoconsultantsrilanka.com/seo-consultant-sri-lanka-guide): 10-point evaluation checklist and pricing breakdown for hiring a consultant.
 - [AI SEO (GEO)](https://seoconsultantsrilanka.com/ai-seo): Generative Engine Optimization for ChatGPT, Gemini, and Perplexity.
-- [Technical SEO Sri Lanka](https://seoservice.lk/technical-seo): Crawl, speed, and indexing fixes.
-- [On-Page SEO Sri Lanka](https://seoservice.lk/on-page-seo): Title tags, content structure, and internal linking.
-- [Local SEO Sri Lanka](https://seoservice.lk/local-seo): Google Maps, local landing pages, and reviews.
-- [Google Maps SEO Sri Lanka](https://seoservice.lk/google-map-pack-sri-lanka): Ranking in the local pack.
-- [Ecommerce SEO Sri Lanka](https://seoservice.lk/ecommerce-seo): Category/product page and technical architecture playbook.
-- [SEO Audit Sri Lanka](https://seoservice.lk/seo-audits): Full audit framework and 90-day roadmap.
+- [Technical SEO Sri Lanka](https://seoconsultantsrilanka.com/technical-seo-sri-lanka): Crawl, speed, and indexing fixes.
+- [On-Page SEO Sri Lanka](https://seoconsultantsrilanka.com/on-page-seo-sri-lanka): Title tags, content structure, and internal linking.
+- [Local SEO Sri Lanka](https://seoconsultantsrilanka.com/local-seo-sri-lanka): Google Maps, local landing pages, and reviews.
+- [Google Maps SEO Sri Lanka](https://seoconsultantsrilanka.com/google-maps-seo-sri-lanka): Ranking in the local pack.
+- [Ecommerce SEO Sri Lanka](https://seoconsultantsrilanka.com/ecommerce-seo-sri-lanka): Category/product page and technical architecture playbook.
+- [SEO Audit Sri Lanka](https://seoconsultantsrilanka.com/seo-audit-sri-lanka): Full audit framework and 90-day roadmap.
 - [SEO Courses in Sri Lanka](https://seoconsultantsrilanka.com/seo-courses-in-sri-lanka): How to pick practical SEO training.
 - [How to Become an SEO Specialist](https://seoconsultantsrilanka.com/how-to-become-seo-specialist): Career roadmap and skills.
 - [What Is SEO](https://seoconsultantsrilanka.com/what-is-seo): E-E-A-T guide to search engine optimization fundamentals.
@@ -39,14 +41,65 @@ Founded and run by Buddhika S Weerasekara, 15+ years of hands-on SEO experience.
 
 ## City / local pages
 
+- [SEO Consultant Ampara](https://seoconsultantsrilanka.com/seo-consultant-ampara): SEO consulting for businesses in Ampara.
+- [SEO Consultant Anuradhapura](https://seoconsultantsrilanka.com/seo-consultant-anuradhapura): SEO consulting for businesses in Anuradhapura.
+- [SEO Consultant Badulla](https://seoconsultantsrilanka.com/seo-consultant-badulla): SEO consulting for businesses in Badulla.
+- [SEO Consultant Batticaloa](https://seoconsultantsrilanka.com/seo-consultant-batticaloa): SEO consulting for businesses in Batticaloa.
 - [SEO Consultant Colombo](https://seoconsultantsrilanka.com/seo-consultant-colombo): SEO consulting for businesses in Colombo.
+- [SEO Consultant Galle](https://seoconsultantsrilanka.com/seo-consultant-galle): SEO consulting for businesses in Galle.
 - [SEO Consultant Gampaha](https://seoconsultantsrilanka.com/seo-consultant-gampaha): SEO consulting for businesses in Gampaha.
+- [SEO Consultant Hambantota](https://seoconsultantsrilanka.com/seo-consultant-hambantota): SEO consulting for businesses in Hambantota.
+- [SEO Consultant Jaffna](https://seoconsultantsrilanka.com/seo-consultant-jaffna): SEO consulting for businesses in Jaffna.
 - [SEO Consultant Kalutara](https://seoconsultantsrilanka.com/seo-consultant-kalutara): SEO consulting for businesses in Kalutara.
 - [SEO Consultant Kandy](https://seoconsultantsrilanka.com/seo-consultant-kandy): SEO consulting for businesses in Kandy.
-- [SEO Consultant Galle](https://seoconsultantsrilanka.com/seo-consultant-galle): SEO consulting for businesses in Galle.
-- [SEO Consultant Matara](https://seoconsultantsrilanka.com/seo-consultant-matara): SEO consulting for businesses in Matara.
-- [SEO Consultant Jaffna](https://seoconsultantsrilanka.com/seo-consultant-jaffna): SEO consulting for businesses in Jaffna.
+- [SEO Consultant Kegalle](https://seoconsultantsrilanka.com/seo-consultant-kegalle): SEO consulting for businesses in Kegalle.
+- [SEO Consultant Kilinochchi](https://seoconsultantsrilanka.com/seo-consultant-kilinochchi): SEO consulting for businesses in Kilinochchi.
 - [SEO Consultant Kurunegala](https://seoconsultantsrilanka.com/seo-consultant-kurunegala): SEO consulting for businesses in Kurunegala.
+- [SEO Consultant Mannar](https://seoconsultantsrilanka.com/seo-consultant-mannar): SEO consulting for businesses in Mannar.
+- [SEO Consultant Matale](https://seoconsultantsrilanka.com/seo-consultant-matale): SEO consulting for businesses in Matale.
+- [SEO Consultant Matara](https://seoconsultantsrilanka.com/seo-consultant-matara): SEO consulting for businesses in Matara.
+- [SEO Consultant Monaragala](https://seoconsultantsrilanka.com/seo-consultant-monaragala): SEO consulting for businesses in Monaragala.
+- [SEO Consultant Mullaitivu](https://seoconsultantsrilanka.com/seo-consultant-mullaitivu): SEO consulting for businesses in Mullaitivu.
+- [SEO Consultant Negombo](https://seoconsultantsrilanka.com/seo-consultant-negombo): SEO consulting for businesses in Negombo.
+- [SEO Consultant Nuwara Eliya](https://seoconsultantsrilanka.com/seo-consultant-nuwara-eliya): SEO consulting for businesses in Nuwara Eliya.
+- [SEO Consultant Polonnaruwa](https://seoconsultantsrilanka.com/seo-consultant-polonnaruwa): SEO consulting for businesses in Polonnaruwa.
+- [SEO Consultant Puttalam](https://seoconsultantsrilanka.com/seo-consultant-puttalam): SEO consulting for businesses in Puttalam.
+- [SEO Consultant Ratnapura](https://seoconsultantsrilanka.com/seo-consultant-ratnapura): SEO consulting for businesses in Ratnapura.
+- [SEO Consultant Trincomalee](https://seoconsultantsrilanka.com/seo-consultant-trincomalee): SEO consulting for businesses in Trincomalee.
+- [SEO Consultant Vavuniya](https://seoconsultantsrilanka.com/seo-consultant-vavuniya): SEO consulting for businesses in Vavuniya.
+
+## Case studies (anonymized, reported results)
+
+- [International SEO for an Education Website](https://seoconsultantsrilanka.com/international-education-seo-case-study): See how an education website grew organic clicks 91% and ranking keywords from 180 to 342 across Google.lk, Google.com.au, and Google.co.nz.
+- [Local SEO for a Construction Business](https://seoconsultantsrilanka.com/local-construction-seo-case-study): A five-month construction SEO campaign increased organic clicks by 84%, improved visibility for 18 keywords, and grew qualified enquiries by 52%.
+- [eCommerce SEO for an Online Retailer](https://seoconsultantsrilanka.com/ecommerce-online-retail-seo-case-study): Over six months, an online retailer grew organic clicks 112%, product-page visits 96%, and organic revenue 41%.
+- [Technical SEO for a Business Website](https://seoconsultantsrilanka.com/technical-business-website-seo-case-study): A technical SEO campaign resolved 47 issues, increased indexed priority pages by 38%, and grew organic clicks by 54% in five months.
+- [Local SEO for a Restaurant](https://seoconsultantsrilanka.com/local-restaurant-seo-case-study): Within four months, restaurant Google Business Profile interactions increased 68%, organic clicks grew 57%, and 14 local keywords improved.
+- [SEO for a SaaS Software Company](https://seoconsultantsrilanka.com/saas-software-company-seo-case-study): Over seven months, a software company grew organic traffic 95%, ranking keywords from 320 to 610, and organic sign-ups by 48%.
+- [Local SEO for a Medical Clinic](https://seoconsultantsrilanka.com/local-medical-clinic-seo-case-study): A six-month clinic SEO campaign increased organic clicks 73%, organic appointment enquiries 39%, and improved visibility for 21 keywords.
+- [SEO for a Real Estate Website](https://seoconsultantsrilanka.com/real-estate-seo-case-study): Over eight months, a real estate website grew organic clicks 88%, keyword rankings from 190 to 405, and organic leads by 46%.
+- [International SEO for Travel Services](https://seoconsultantsrilanka.com/international-travel-services-seo-case-study): A six-month travel SEO campaign increased organic clicks 126%, impressions 98%, and organic enquiries 61% across 37 target keywords.
+- [Education SEO for a Training Institute](https://seoconsultantsrilanka.com/education-training-institute-seo-case-study): Over five months, a training institute grew impressions 79%, organic clicks 66%, and course enquiries 43%, with 16 first-page terms.
+- [Local SEO for a Law Firm](https://seoconsultantsrilanka.com/local-law-firm-seo-case-study): A six-month law firm SEO campaign increased organic clicks 62%, improved 19 practice-area keywords, and grew qualified enquiries 35%.
+- [Local SEO for Automotive Services](https://seoconsultantsrilanka.com/local-automotive-seo-case-study): Over five months, automotive organic traffic grew 72%, rankings improved for 23 service keywords, and tracked enquiries rose 44%.
+- [eCommerce SEO for a Fashion Store](https://seoconsultantsrilanka.com/ecommerce-fashion-store-seo-case-study): A seven-month fashion SEO campaign grew organic clicks 103%, category traffic 87%, commercial rankings from 270 to 560, and sales 38%.
+- [WordPress SEO: Technical and On-Page Fixes](https://seoconsultantsrilanka.com/wordpress-seo-case-study): A three-month WordPress SEO campaign resolved 36 issues, grew organic clicks 49%, and improved indexing or rankings across 22 priority pages.
+- [SEO During a Website Migration](https://seoconsultantsrilanka.com/website-migration-seo-case-study): A website migration achieved 96% redirect coverage. After three months of monitoring and fixes, organic clicks were 8% above baseline.
+- [Link Building SEO Through Targeted Outreach](https://seoconsultantsrilanka.com/link-building-seo-case-study): Over six months, targeted outreach acquired 28 relevant referring domains, improved 31 target keywords, and increased tracked clicks 47%.
+- [SEO for a Professional Personal Brand](https://seoconsultantsrilanka.com/personal-brand-seo-case-study): Within five months, a consultant improved visibility for 24 branded keywords, grew organic clicks 71%, and increased visible pages from 8 to 19.
+- [Multi-Location SEO Across Eight Locations](https://seoconsultantsrilanka.com/multi-location-seo-case-study): A six-month campaign optimised eight location pages, increased clicks 82%, improved 34 local keyword rankings, and grew enquiries 49%.
+- [SEO for a Mobile App Website](https://seoconsultantsrilanka.com/mobile-app-seo-case-study): Within six months, a mobile app website grew organic clicks 82%, improved 26 feature keywords, and increased attributable organic installs 36%.
+- [B2B Lead Generation Through SEO](https://seoconsultantsrilanka.com/b2b-lead-generation-seo-case-study): Over seven months, a B2B campaign grew organic clicks 76%, commercial rankings from 145 to 310, and qualified organic leads 69%.
+- [Video and Website SEO](https://seoconsultantsrilanka.com/video-website-seo-case-study): Within five months, website organic clicks grew 77%, 29 video-related keywords improved, and tracked video referral visits increased 42%.
+- [International eCommerce SEO Across Three Countries](https://seoconsultantsrilanka.com/international-ecommerce-seo-case-study): Over eight months, organic clicks across three countries grew 94%, with improved visibility for 42 terms and product-page sessions up 81%.
+- [SaaS Content Cluster SEO](https://seoconsultantsrilanka.com/saas-content-cluster-seo-case-study): A six-month campaign published 35 articles across five clusters, grew organic clicks 86%, rankings 64%, and commercial-page visits 51%.
+- [Core Web Vitals Optimisation and SEO](https://seoconsultantsrilanka.com/core-web-vitals-seo-case-study): Core Web Vitals work improved LCP from 4.1s to 2.3s, threshold-ready URLs from 32% to 78%, and organic clicks by 31%.
+- [Google Business Profile SEO](https://seoconsultantsrilanka.com/google-business-profile-seo-case-study): Within four months, Google Business Profile interactions increased 64%, profile website clicks grew 51%, and 17 local keywords improved.
+- [AI Search Visibility and GEO](https://seoconsultantsrilanka.com/ai-search-geo-seo-case-study): A four-month GEO campaign improved 18 priority pages and documented 18 AI search citations or mentions through recorded tests.
+- [Local SEO for a Pharmacy](https://seoconsultantsrilanka.com/local-pharmacy-seo-case-study): A six-month pharmacy SEO campaign grew organic clicks 58%, improved 20 service keywords, and increased priority category visits 46%.
+- [SEO for Financial Services](https://seoconsultantsrilanka.com/financial-services-seo-case-study): A seven-month financial SEO campaign increased organic clicks 67%, improved 28 keywords, and grew qualified enquiries 63%.
+- [SEO Traffic Recovery After a Decline](https://seoconsultantsrilanka.com/seo-traffic-recovery-case-study): Over five months, daily clicks recovered 76% from the documented low as 22 priority keywords regained or improved positions.
+- [Comprehensive SEO and GEO Campaign](https://seoconsultantsrilanka.com/comprehensive-seo-geo-case-study): An eight-month SEO and GEO campaign grew clicks 118%, impressions 92%, ranking keywords from 410 to 890, and qualified enquiries 57%.
 
 ## Key facts
 
@@ -56,6 +109,8 @@ Founded and run by Buddhika S Weerasekara, 15+ years of hands-on SEO experience.
 - Pricing (LKR): 10 keywords 60,000; 20 keywords + GEO 99,999; 20 keywords + GEO + Google Business Profile 120,000. Packages run until keywords rank, typically 1-6 months.
 - No guaranteed #1 rankings; results depend on competition and site history.
 - Coverage: all 9 provinces of Sri Lanka and international clients.
+
+Sister site: [SEO Service Sri Lanka](https://seoservice.lk/), also operated by Applantics (Pvt) Ltd.
 
 ## Contact
 
