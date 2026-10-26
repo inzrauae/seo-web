@@ -12,12 +12,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+91%", "label": "Organic Clicks"},
-      {"value": "+76%", "label": "Search Impressions"},
-      {"value": "180 to 342", "label": "Ranking Keywords"}
+      {
+        "value": "+91%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+76%",
+        "label": "Search Impressions"
+      },
+      {
+        "value": "180 to 342",
+        "label": "Ranking Keywords"
+      }
     ],
     "summary": "Within six months, organic clicks increased by 91%, from 350 to 669 in the measured three-month comparison. Search impressions grew by 76%, from 3,820 to 6,720, while ranking keywords increased from 180 to 342. The website improved its visibility across Google.lk, Google.com.au, and Google.co.nz.",
-    "methods": ["International SEO", "Visibility across Google.lk, Google.com.au, and Google.co.nz", "Organic clicks, impressions, and ranking-keyword measurement"]
+    "methods": [
+      "International SEO",
+      "Visibility across Google.lk, Google.com.au, and Google.co.nz",
+      "Organic clicks, impressions, and ranking-keyword measurement"
+    ],
+    "objective": "The education website needed to reach prospective students searching from more than one country. The goal was to grow qualified visibility on Google.lk, Google.com.au, and Google.co.nz at the same time, rather than in a single local market.",
+    "approach": [
+      {
+        "title": "Market-by-market search visibility",
+        "text": "Search performance was reviewed separately for Sri Lanka, Australia, and New Zealand, because the same course or study topic can be searched differently in each country."
+      },
+      {
+        "title": "International keyword expansion",
+        "text": "Pages were aligned with the queries students use in each target market, which is reflected in ranking keywords growing from 180 to 342."
+      },
+      {
+        "title": "Clicks and impressions measurement",
+        "text": "Progress was measured with a like-for-like three-month comparison of organic clicks and search impressions, so seasonal swings were not mistaken for SEO growth."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks (3-month comparison)",
+        "result": "350 → 669 (+91%)"
+      },
+      {
+        "metric": "Search impressions",
+        "result": "3,820 → 6,720 (+76%)"
+      },
+      {
+        "metric": "Ranking keywords",
+        "result": "180 → 342"
+      },
+      {
+        "metric": "Markets",
+        "result": "Google.lk, Google.com.au, Google.co.nz"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-construction-seo-case-study",
@@ -32,12 +79,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+84%", "label": "Organic Clicks"},
-      {"value": "18", "label": "First-Page Keywords"},
-      {"value": "+52%", "label": "Qualified Enquiries"}
+      {
+        "value": "+84%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "18",
+        "label": "First-Page Keywords"
+      },
+      {
+        "value": "+52%",
+        "label": "Qualified Enquiries"
+      }
     ],
     "summary": "Within five months, organic clicks increased by 84%. The website gained first-page visibility for 18 targeted construction keywords, while qualified enquiries increased by 52%. Local landing-page optimisation helped improve visibility across the targeted service areas.",
-    "methods": ["Local SEO", "Local landing-page optimisation", "Targeted construction keyword visibility"]
+    "methods": [
+      "Local SEO",
+      "Local landing-page optimisation",
+      "Targeted construction keyword visibility"
+    ],
+    "objective": "The construction business wanted more enquiries from the specific service areas it covers. Search traffic only mattered if it came from people in those areas looking for construction work.",
+    "approach": [
+      {
+        "title": "Local landing-page optimisation",
+        "text": "Landing pages were optimised for the targeted service areas so each one clearly matched what local searchers were looking for."
+      },
+      {
+        "title": "Construction keyword targeting",
+        "text": "A focused set of construction keywords was prioritised, and 18 of them reached first-page visibility."
+      },
+      {
+        "title": "Enquiry quality tracking",
+        "text": "Results were judged on qualified enquiries, not only traffic, so the campaign stayed tied to real business outcomes."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+84%"
+      },
+      {
+        "metric": "Keywords on page one",
+        "result": "18 targeted construction keywords"
+      },
+      {
+        "metric": "Qualified enquiries",
+        "result": "+52%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "ecommerce-online-retail-seo-case-study",
@@ -52,12 +146,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+112%", "label": "Organic Clicks"},
-      {"value": "240 to 510", "label": "Commercial Keywords"},
-      {"value": "+41%", "label": "Organic Revenue"}
+      {
+        "value": "+112%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "240 to 510",
+        "label": "Commercial Keywords"
+      },
+      {
+        "value": "+41%",
+        "label": "Organic Revenue"
+      }
     ],
     "summary": "Over six months, organic clicks increased by 112%, and commercial keyword rankings expanded from 240 to 510. Organic product-page visits grew by 96%, while organic revenue increased by 41% during the reporting period.",
-    "methods": ["eCommerce SEO", "Commercial keyword rankings", "Product-page organic visits and revenue measurement"]
+    "methods": [
+      "eCommerce SEO",
+      "Commercial keyword rankings",
+      "Product-page organic visits and revenue measurement"
+    ],
+    "objective": "The online retailer needed organic search to drive sales, not only visits. The campaign focused on commercial keywords and the product pages that convert.",
+    "approach": [
+      {
+        "title": "Commercial keyword expansion",
+        "text": "Category and product pages were aligned with buying-intent searches, and commercial keyword rankings grew from 240 to 510."
+      },
+      {
+        "title": "Product-page visibility",
+        "text": "Product pages were treated as the main landing pages for organic search, and organic product-page visits grew by 96%."
+      },
+      {
+        "title": "Revenue measurement",
+        "text": "Organic revenue was tracked through the reporting period so the effect of SEO could be read in sales terms, not just traffic."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+112%"
+      },
+      {
+        "metric": "Commercial keyword rankings",
+        "result": "240 → 510"
+      },
+      {
+        "metric": "Organic product-page visits",
+        "result": "+96%"
+      },
+      {
+        "metric": "Organic revenue",
+        "result": "+41%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "technical-business-website-seo-case-study",
@@ -72,12 +213,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "47", "label": "Technical Issues Resolved"},
-      {"value": "+38%", "label": "Indexed Priority Pages"},
-      {"value": "+54%", "label": "Organic Clicks"}
+      {
+        "value": "47",
+        "label": "Technical Issues Resolved"
+      },
+      {
+        "value": "+38%",
+        "label": "Indexed Priority Pages"
+      },
+      {
+        "value": "+54%",
+        "label": "Organic Clicks"
+      }
     ],
     "summary": "The technical SEO campaign resolved 47 identified issues, including broken internal links, canonicalisation conflicts, and indexing problems. Indexed priority pages increased by 38%, and organic clicks grew by 54% over five months.",
-    "methods": ["Technical SEO", "Broken internal-link fixes", "Canonicalisation and indexing corrections"]
+    "methods": [
+      "Technical SEO",
+      "Broken internal-link fixes",
+      "Canonicalisation and indexing corrections"
+    ],
+    "objective": "The business website had technical problems that stopped important pages from being crawled and indexed correctly. Fixing that foundation came before any other SEO work.",
+    "approach": [
+      {
+        "title": "Technical audit and issue list",
+        "text": "The site was audited and 47 specific issues were identified and resolved."
+      },
+      {
+        "title": "Broken internal links",
+        "text": "Broken internal links were fixed so users and search engines could reach priority pages without dead ends."
+      },
+      {
+        "title": "Canonicalisation and indexing",
+        "text": "Canonical conflicts and indexing problems were corrected so search engines indexed the intended version of each priority page. Indexed priority pages increased by 38%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Technical issues resolved",
+        "result": "47"
+      },
+      {
+        "metric": "Indexed priority pages",
+        "result": "+38%"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+54%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-restaurant-seo-case-study",
@@ -92,12 +280,59 @@
     "duration": "4 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+68%", "label": "Google Business Profile Interactions"},
-      {"value": "+57%", "label": "Organic Clicks"},
-      {"value": "14", "label": "Targeted Keywords Improved"}
+      {
+        "value": "+68%",
+        "label": "Google Business Profile Interactions"
+      },
+      {
+        "value": "+57%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "14",
+        "label": "Targeted Keywords Improved"
+      }
     ],
     "summary": "Within four months, Google Business Profile interactions increased by 68%. Organic clicks grew by 57%, and the website achieved improved rankings for 14 targeted restaurant and location-related keywords.",
-    "methods": ["Local SEO", "Google Business Profile optimisation", "Restaurant and location keyword visibility"]
+    "methods": [
+      "Local SEO",
+      "Google Business Profile optimisation",
+      "Restaurant and location keyword visibility"
+    ],
+    "objective": "The restaurant needed to be found by nearby diners searching on Google Search and Maps. Its Google Business Profile and local keyword rankings were the main levers.",
+    "approach": [
+      {
+        "title": "Google Business Profile optimisation",
+        "text": "The restaurant's Google Business Profile was optimised, and profile interactions increased by 68%."
+      },
+      {
+        "title": "Restaurant and location keywords",
+        "text": "The website was aligned with restaurant and location searches, improving rankings for 14 targeted keywords."
+      },
+      {
+        "title": "Website visibility",
+        "text": "Organic clicks to the website were tracked alongside the profile, and grew by 57%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Google Business Profile interactions",
+        "result": "+68%"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+57%"
+      },
+      {
+        "metric": "Targeted keywords improved",
+        "result": "14"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "4 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "saas-software-company-seo-case-study",
@@ -112,12 +347,63 @@
     "duration": "7 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+95%", "label": "Organic Traffic"},
-      {"value": "320 to 610", "label": "Ranking Keywords"},
-      {"value": "+48%", "label": "Organic Sign-ups"}
+      {
+        "value": "+95%",
+        "label": "Organic Traffic"
+      },
+      {
+        "value": "320 to 610",
+        "label": "Ranking Keywords"
+      },
+      {
+        "value": "+48%",
+        "label": "Organic Sign-ups"
+      }
     ],
     "summary": "Over seven months, organic traffic increased by 95%, while ranking keywords grew from 320 to 610. Organic sign-ups increased by 48%, supported by improved product landing pages, commercial keyword targeting, and educational content.",
-    "methods": ["SaaS SEO", "Product landing-page improvements", "Commercial keyword targeting and educational content"]
+    "methods": [
+      "SaaS SEO",
+      "Product landing-page improvements",
+      "Commercial keyword targeting and educational content"
+    ],
+    "objective": "The software company wanted organic search to bring in sign-ups. That meant ranking for commercial software queries as well as the educational searches buyers make earlier on.",
+    "approach": [
+      {
+        "title": "Product landing pages",
+        "text": "Product landing pages were improved so they matched commercial search intent and gave visitors a clear path to sign up."
+      },
+      {
+        "title": "Commercial keyword targeting",
+        "text": "Commercial keywords were targeted alongside the product pages, and ranking keywords grew from 320 to 610."
+      },
+      {
+        "title": "Educational content",
+        "text": "Educational content was added to reach buyers earlier in their research and support the product pages."
+      },
+      {
+        "title": "Sign-up measurement",
+        "text": "Organic sign-ups were tracked as the main outcome and increased by 48%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic traffic",
+        "result": "+95%"
+      },
+      {
+        "metric": "Ranking keywords",
+        "result": "320 → 610"
+      },
+      {
+        "metric": "Organic sign-ups",
+        "result": "+48%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "7 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-medical-clinic-seo-case-study",
@@ -132,12 +418,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+73%", "label": "Organic Clicks"},
-      {"value": "+39%", "label": "Appointment Enquiries"},
-      {"value": "21", "label": "Service and Location Keywords"}
+      {
+        "value": "+73%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+39%",
+        "label": "Appointment Enquiries"
+      },
+      {
+        "value": "21",
+        "label": "Service and Location Keywords"
+      }
     ],
     "summary": "Within six months, organic clicks increased by 73%, and appointment enquiries from organic search grew by 39%. The clinic achieved improved visibility for 21 targeted service and location keywords.",
-    "methods": ["Local SEO", "Service and location keyword visibility", "Organic appointment-enquiry measurement"]
+    "methods": [
+      "Local SEO",
+      "Service and location keyword visibility",
+      "Organic appointment-enquiry measurement"
+    ],
+    "objective": "The clinic wanted more patients booking from local search. Visibility needed to cover both the services offered and the locations served.",
+    "approach": [
+      {
+        "title": "Service and location keywords",
+        "text": "Pages were aligned with 21 targeted service and location keywords, all of which improved in visibility."
+      },
+      {
+        "title": "Organic click growth",
+        "text": "Search visibility was tracked through organic clicks, which grew by 73%."
+      },
+      {
+        "title": "Appointment enquiry tracking",
+        "text": "Appointment enquiries from organic search were measured as the main business outcome and rose by 39%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+73%"
+      },
+      {
+        "metric": "Organic appointment enquiries",
+        "result": "+39%"
+      },
+      {
+        "metric": "Service and location keywords improved",
+        "result": "21"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "6 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "real-estate-seo-case-study",
@@ -152,12 +485,59 @@
     "duration": "8 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+88%", "label": "Organic Clicks"},
-      {"value": "190 to 405", "label": "Ranking Keywords"},
-      {"value": "+46%", "label": "Organic Lead Submissions"}
+      {
+        "value": "+88%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "190 to 405",
+        "label": "Ranking Keywords"
+      },
+      {
+        "value": "+46%",
+        "label": "Organic Lead Submissions"
+      }
     ],
     "summary": "Over eight months, organic clicks increased by 88%, and ranking property-related keywords expanded from 190 to 405. Organic lead submissions grew by 46%, with improved visibility for property searches across targeted locations.",
-    "methods": ["Real estate SEO", "Property-related keyword visibility", "Organic lead-submission measurement"]
+    "methods": [
+      "Real estate SEO",
+      "Property-related keyword visibility",
+      "Organic lead-submission measurement"
+    ],
+    "objective": "The real estate website needed to capture property searches across its target locations and turn them into lead submissions.",
+    "approach": [
+      {
+        "title": "Property keyword expansion",
+        "text": "Pages were aligned with property-related searches, and ranking keywords grew from 190 to 405."
+      },
+      {
+        "title": "Location visibility",
+        "text": "Visibility was built for property searches across each targeted location."
+      },
+      {
+        "title": "Lead submission tracking",
+        "text": "Organic lead submissions were tracked as the main outcome and grew by 46%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+88%"
+      },
+      {
+        "metric": "Property-related ranking keywords",
+        "result": "190 → 405"
+      },
+      {
+        "metric": "Organic lead submissions",
+        "result": "+46%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "8 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "international-travel-services-seo-case-study",
@@ -172,12 +552,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+126%", "label": "Organic Clicks"},
-      {"value": "+98%", "label": "Search Impressions"},
-      {"value": "+61%", "label": "Organic Enquiries"}
+      {
+        "value": "+126%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+98%",
+        "label": "Search Impressions"
+      },
+      {
+        "value": "+61%",
+        "label": "Organic Enquiries"
+      }
     ],
     "summary": "Within six months, organic clicks increased by 126%, while impressions grew by 98%. The website improved rankings for 37 destination and transfer-related keywords, and organic enquiries increased by 61%.",
-    "methods": ["International SEO", "Destination and transfer keyword visibility", "Organic enquiry measurement"]
+    "methods": [
+      "International SEO",
+      "Destination and transfer keyword visibility",
+      "Organic enquiry measurement"
+    ],
+    "objective": "The travel business serves travellers from several countries. The goal was more organic enquiries for its destinations and transfer services from international searchers.",
+    "approach": [
+      {
+        "title": "Destination and transfer keywords",
+        "text": "Pages were aligned with destination and transfer searches, improving rankings for 37 keywords."
+      },
+      {
+        "title": "International visibility",
+        "text": "Search impressions across international markets grew by 98%, showing wider reach before clicks followed."
+      },
+      {
+        "title": "Enquiry tracking",
+        "text": "Organic enquiries were measured as the business outcome and grew by 61%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+126%"
+      },
+      {
+        "metric": "Search impressions",
+        "result": "+98%"
+      },
+      {
+        "metric": "Destination and transfer keywords improved",
+        "result": "37"
+      },
+      {
+        "metric": "Organic enquiries",
+        "result": "+61%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "education-training-institute-seo-case-study",
@@ -192,12 +619,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+79%", "label": "Search Impressions"},
-      {"value": "+66%", "label": "Organic Clicks"},
-      {"value": "+43%", "label": "Organic Course Enquiries"}
+      {
+        "value": "+79%",
+        "label": "Search Impressions"
+      },
+      {
+        "value": "+66%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+43%",
+        "label": "Organic Course Enquiries"
+      }
     ],
     "summary": "Over five months, search impressions increased by 79%, and organic clicks grew by 66%. The website gained first-page rankings for 16 course-related keywords, while organic course enquiries increased by 43%.",
-    "methods": ["Education SEO", "Course-related keyword targeting", "Organic course-enquiry measurement"]
+    "methods": [
+      "Education SEO",
+      "Course-related keyword targeting",
+      "Organic course-enquiry measurement"
+    ],
+    "objective": "The training institute needed students to find its courses in search and enquire. Visibility for course-related searches was the priority.",
+    "approach": [
+      {
+        "title": "Course keyword targeting",
+        "text": "Course pages were aligned with how students search for courses, and 16 course-related keywords reached the first page."
+      },
+      {
+        "title": "Visibility and clicks",
+        "text": "Search impressions grew by 79% and organic clicks by 66% as the pages gained ranking positions."
+      },
+      {
+        "title": "Course enquiry tracking",
+        "text": "Organic course enquiries were tracked as the main outcome and increased by 43%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Search impressions",
+        "result": "+79%"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+66%"
+      },
+      {
+        "metric": "Course keywords on page one",
+        "result": "16"
+      },
+      {
+        "metric": "Organic course enquiries",
+        "result": "+43%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-law-firm-seo-case-study",
@@ -212,12 +686,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+62%", "label": "Organic Clicks"},
-      {"value": "19", "label": "Practice-Area Keywords Improved"},
-      {"value": "+35%", "label": "Qualified Organic Enquiries"}
+      {
+        "value": "+62%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "19",
+        "label": "Practice-Area Keywords Improved"
+      },
+      {
+        "value": "+35%",
+        "label": "Qualified Organic Enquiries"
+      }
     ],
     "summary": "Within six months, organic clicks increased by 62%, and the website achieved improved rankings for 19 practice-area keywords. Qualified enquiries from organic search increased by 35% during the campaign.",
-    "methods": ["Local SEO", "Practice-area keyword visibility", "Qualified organic enquiry measurement"]
+    "methods": [
+      "Local SEO",
+      "Practice-area keyword visibility",
+      "Qualified organic enquiry measurement"
+    ],
+    "objective": "The law firm wanted more qualified enquiries for its practice areas from people searching locally for legal help.",
+    "approach": [
+      {
+        "title": "Practice-area keywords",
+        "text": "Practice-area pages were aligned with local legal searches, improving rankings for 19 practice-area keywords."
+      },
+      {
+        "title": "Organic visibility",
+        "text": "Organic clicks were tracked as visibility improved and grew by 62%."
+      },
+      {
+        "title": "Qualified enquiry tracking",
+        "text": "Enquiries were assessed for quality, and qualified organic enquiries rose by 35%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+62%"
+      },
+      {
+        "metric": "Practice-area keywords improved",
+        "result": "19"
+      },
+      {
+        "metric": "Qualified organic enquiries",
+        "result": "+35%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "6 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-automotive-seo-case-study",
@@ -232,12 +753,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+72%", "label": "Organic Traffic"},
-      {"value": "23", "label": "Repair and Maintenance Keywords"},
-      {"value": "+44%", "label": "Tracked Service Enquiries"}
+      {
+        "value": "+72%",
+        "label": "Organic Traffic"
+      },
+      {
+        "value": "23",
+        "label": "Repair and Maintenance Keywords"
+      },
+      {
+        "value": "+44%",
+        "label": "Tracked Service Enquiries"
+      }
     ],
     "summary": "Over five months, organic traffic increased by 72%. The website improved its rankings for 23 vehicle maintenance and repair keywords, while tracked service enquiries increased by 44%.",
-    "methods": ["Local SEO", "Vehicle maintenance and repair keyword visibility", "Tracked service-enquiry measurement"]
+    "methods": [
+      "Local SEO",
+      "Vehicle maintenance and repair keyword visibility",
+      "Tracked service-enquiry measurement"
+    ],
+    "objective": "The automotive service business wanted more local customers booking repairs and maintenance through search.",
+    "approach": [
+      {
+        "title": "Repair and maintenance keywords",
+        "text": "Service pages were aligned with vehicle maintenance and repair searches, improving rankings for 23 keywords."
+      },
+      {
+        "title": "Organic traffic growth",
+        "text": "Organic traffic to the website was tracked and grew by 72%."
+      },
+      {
+        "title": "Service enquiry tracking",
+        "text": "Service enquiries were tracked from organic search and rose by 44%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic traffic",
+        "result": "+72%"
+      },
+      {
+        "metric": "Repair and maintenance keywords improved",
+        "result": "23"
+      },
+      {
+        "metric": "Tracked service enquiries",
+        "result": "+44%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "ecommerce-fashion-store-seo-case-study",
@@ -252,12 +820,59 @@
     "duration": "7 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+103%", "label": "Organic Clicks"},
-      {"value": "270 to 560", "label": "Commercial Keywords"},
-      {"value": "+38%", "label": "Organic Sales"}
+      {
+        "value": "+103%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "270 to 560",
+        "label": "Commercial Keywords"
+      },
+      {
+        "value": "+38%",
+        "label": "Organic Sales"
+      }
     ],
     "summary": "Within seven months, organic clicks increased by 103%, and category-page traffic grew by 87%. Ranking commercial keywords increased from 270 to 560, while organic sales increased by 38%.",
-    "methods": ["eCommerce SEO", "Category-page traffic growth", "Commercial keyword and organic sales measurement"]
+    "methods": [
+      "eCommerce SEO",
+      "Category-page traffic growth",
+      "Commercial keyword and organic sales measurement"
+    ],
+    "objective": "The fashion store needed category pages to rank for commercial searches and drive organic sales.",
+    "approach": [
+      {
+        "title": "Category-page SEO",
+        "text": "Category pages were treated as the main organic landing pages, and category-page traffic grew by 87%."
+      },
+      {
+        "title": "Commercial keyword expansion",
+        "text": "Commercial keyword rankings grew from 270 to 560 as category and product pages matched buying-intent searches."
+      },
+      {
+        "title": "Sales measurement",
+        "text": "Organic sales were tracked as the main outcome and increased by 38%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+103%"
+      },
+      {
+        "metric": "Category-page traffic",
+        "result": "+87%"
+      },
+      {
+        "metric": "Commercial keyword rankings",
+        "result": "270 → 560"
+      },
+      {
+        "metric": "Organic sales",
+        "result": "+38%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "wordpress-seo-case-study",
@@ -272,12 +887,59 @@
     "duration": "3 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "36", "label": "Technical and On-Page Issues Resolved"},
-      {"value": "+49%", "label": "Organic Clicks"},
-      {"value": "22", "label": "Priority Pages Improved"}
+      {
+        "value": "36",
+        "label": "Technical and On-Page Issues Resolved"
+      },
+      {
+        "value": "+49%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "22",
+        "label": "Priority Pages Improved"
+      }
     ],
     "summary": "The campaign resolved 36 confirmed technical and on-page issues within three months. Organic clicks increased by 49%, and 22 priority landing pages achieved measurable improvements in indexing or keyword rankings.",
-    "methods": ["WordPress SEO", "Technical issue resolution", "On-page and priority landing-page improvements"]
+    "methods": [
+      "WordPress SEO",
+      "Technical issue resolution",
+      "On-page and priority landing-page improvements"
+    ],
+    "objective": "The WordPress website had a backlog of technical and on-page issues holding back its priority landing pages.",
+    "approach": [
+      {
+        "title": "Issue confirmation",
+        "text": "Technical and on-page issues were audited and confirmed before work began, and 36 were resolved."
+      },
+      {
+        "title": "Priority landing pages",
+        "text": "Work focused on 22 priority landing pages, each of which showed measurable improvement in indexing or keyword rankings."
+      },
+      {
+        "title": "Click measurement",
+        "text": "Organic clicks were tracked across the three months and grew by 49%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Technical and on-page issues resolved",
+        "result": "36"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+49%"
+      },
+      {
+        "metric": "Priority pages improved",
+        "result": "22"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "3 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "website-migration-seo-case-study",
@@ -292,12 +954,59 @@
     "duration": "3 months of post-migration monitoring",
     "date": "2026-10-26",
     "stats": [
-      {"value": "96%", "label": "Successful Redirect Coverage"},
-      {"value": "+8%", "label": "Organic Clicks vs. Baseline"},
-      {"value": "3 months", "label": "Monitoring and Corrective Work"}
+      {
+        "value": "96%",
+        "label": "Successful Redirect Coverage"
+      },
+      {
+        "value": "+8%",
+        "label": "Organic Clicks vs. Baseline"
+      },
+      {
+        "value": "3 months",
+        "label": "Monitoring and Corrective Work"
+      }
     ],
     "summary": "The migration achieved 96% successful redirect coverage across the mapped URLs. After three months of monitoring and corrective work, organic clicks increased by 8% compared with the pre-migration baseline, with priority landing pages retaining their search visibility.",
-    "methods": ["Website migration SEO", "Mapped URL redirect coverage", "Post-migration monitoring and corrective work"]
+    "methods": [
+      "Website migration SEO",
+      "Mapped URL redirect coverage",
+      "Post-migration monitoring and corrective work"
+    ],
+    "objective": "The website was moving to new URLs. The main risk was losing the search visibility the old pages had earned, so the goal was to protect traffic through the move.",
+    "approach": [
+      {
+        "title": "URL mapping and redirects",
+        "text": "Old URLs were mapped to their new equivalents, reaching 96% successful redirect coverage across the mapped URLs."
+      },
+      {
+        "title": "Priority page protection",
+        "text": "Priority landing pages were checked to confirm they kept their search visibility after launch."
+      },
+      {
+        "title": "Post-migration monitoring",
+        "text": "Search performance was monitored for three months after the move, with corrective work applied as issues appeared."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Successful redirect coverage",
+        "result": "96% of mapped URLs"
+      },
+      {
+        "metric": "Organic clicks vs. pre-migration baseline",
+        "result": "+8%"
+      },
+      {
+        "metric": "Monitoring and corrective work",
+        "result": "3 months"
+      },
+      {
+        "metric": "Priority landing pages",
+        "result": "Search visibility retained"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "link-building-seo-case-study",
@@ -312,12 +1021,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "28", "label": "Relevant Referring Domains"},
-      {"value": "31", "label": "Target Keywords Improved"},
-      {"value": "+47%", "label": "Tracked Organic Clicks"}
+      {
+        "value": "28",
+        "label": "Relevant Referring Domains"
+      },
+      {
+        "value": "31",
+        "label": "Target Keywords Improved"
+      },
+      {
+        "value": "+47%",
+        "label": "Tracked Organic Clicks"
+      }
     ],
     "summary": "Over six months, the campaign acquired 28 relevant referring domains through targeted outreach and content-led link acquisition. The website improved rankings for 31 target keywords, while tracked organic clicks increased by 47%.",
-    "methods": ["Targeted outreach", "Content-led link acquisition", "Target keyword and organic-click tracking"]
+    "methods": [
+      "Targeted outreach",
+      "Content-led link acquisition",
+      "Target keyword and organic-click tracking"
+    ],
+    "objective": "The website needed more authority from relevant sites to compete for its target keywords.",
+    "approach": [
+      {
+        "title": "Targeted outreach",
+        "text": "Relevant websites were contacted through targeted outreach, rather than bulk link placement."
+      },
+      {
+        "title": "Content-led link acquisition",
+        "text": "Content was used as the reason for other sites to link, and 28 relevant referring domains were acquired."
+      },
+      {
+        "title": "Ranking and click tracking",
+        "text": "Target keyword positions and organic clicks were tracked; 31 target keywords improved and tracked clicks rose by 47%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Relevant referring domains acquired",
+        "result": "28"
+      },
+      {
+        "metric": "Target keywords improved",
+        "result": "31"
+      },
+      {
+        "metric": "Tracked organic clicks",
+        "result": "+47%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "6 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "personal-brand-seo-case-study",
@@ -332,12 +1088,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+71%", "label": "Organic Clicks"},
-      {"value": "24", "label": "Branded and Professional-Service Keywords"},
-      {"value": "8 to 19", "label": "Priority Pages in Search Results"}
+      {
+        "value": "+71%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "24",
+        "label": "Branded and Professional-Service Keywords"
+      },
+      {
+        "value": "8 to 19",
+        "label": "Priority Pages in Search Results"
+      }
     ],
     "summary": "Within five months, the consultant's website improved visibility for 24 branded and professional-service keywords. Organic clicks increased by 71%, and the number of priority pages appearing in search results increased from 8 to 19.",
-    "methods": ["Personal brand SEO", "Branded and professional-service keyword visibility", "Priority-page search visibility"]
+    "methods": [
+      "Personal brand SEO",
+      "Branded and professional-service keyword visibility",
+      "Priority-page search visibility"
+    ],
+    "objective": "The consultant wanted their own website to appear when people searched for their name and professional services.",
+    "approach": [
+      {
+        "title": "Branded and service keywords",
+        "text": "Pages were aligned with branded and professional-service searches, improving visibility for 24 keywords."
+      },
+      {
+        "title": "More pages in search",
+        "text": "Priority pages were made eligible to appear in search, and the number appearing in results grew from 8 to 19."
+      },
+      {
+        "title": "Click measurement",
+        "text": "Organic clicks were tracked and grew by 71%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+71%"
+      },
+      {
+        "metric": "Branded and professional-service keywords",
+        "result": "24"
+      },
+      {
+        "metric": "Priority pages in search results",
+        "result": "8 → 19"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "multi-location-seo-case-study",
@@ -352,12 +1155,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "8", "label": "Location Pages Optimised"},
-      {"value": "+82%", "label": "Organic Clicks"},
-      {"value": "+49%", "label": "Tracked Enquiries"}
+      {
+        "value": "8",
+        "label": "Location Pages Optimised"
+      },
+      {
+        "value": "+82%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+49%",
+        "label": "Tracked Enquiries"
+      }
     ],
     "summary": "The campaign optimised eight location pages over six months. Organic clicks increased by 82%, and 34 location-specific keywords achieved improved rankings. Tracked enquiries across the targeted service areas increased by 49%.",
-    "methods": ["Multi-location SEO", "Location-page optimisation", "Location-specific keyword and enquiry tracking"]
+    "methods": [
+      "Multi-location SEO",
+      "Location-page optimisation",
+      "Location-specific keyword and enquiry tracking"
+    ],
+    "objective": "The business operates across eight service areas and needed each location to be visible in its own local searches.",
+    "approach": [
+      {
+        "title": "Location-page optimisation",
+        "text": "A dedicated page for each of the eight locations was optimised for that area's searches."
+      },
+      {
+        "title": "Location keyword tracking",
+        "text": "Rankings were tracked per location, and 34 location-specific keywords improved."
+      },
+      {
+        "title": "Enquiry tracking across areas",
+        "text": "Enquiries were tracked across all targeted service areas and rose by 49%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Location pages optimised",
+        "result": "8"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+82%"
+      },
+      {
+        "metric": "Location-specific keywords improved",
+        "result": "34"
+      },
+      {
+        "metric": "Tracked enquiries",
+        "result": "+49%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "mobile-app-seo-case-study",
@@ -372,12 +1222,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+82%", "label": "Organic Clicks"},
-      {"value": "26", "label": "Feature and Use-Case Keywords"},
-      {"value": "+36%", "label": "Attributable Organic App Installs"}
+      {
+        "value": "+82%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "26",
+        "label": "Feature and Use-Case Keywords"
+      },
+      {
+        "value": "+36%",
+        "label": "Attributable Organic App Installs"
+      }
     ],
     "summary": "Within six months, organic clicks to the app website increased by 82%. Rankings improved for 26 feature and use-case keywords, while attributable organic app installs increased by 36%.",
-    "methods": ["Mobile app SEO", "Feature and use-case keyword visibility", "Attributable organic install measurement"]
+    "methods": [
+      "Mobile app SEO",
+      "Feature and use-case keyword visibility",
+      "Attributable organic install measurement"
+    ],
+    "objective": "The app's website needed to rank for the features and use cases people search for, and send those visitors on to install the app.",
+    "approach": [
+      {
+        "title": "Feature and use-case keywords",
+        "text": "Website pages were aligned with feature and use-case searches, improving rankings for 26 keywords."
+      },
+      {
+        "title": "Website click growth",
+        "text": "Organic clicks to the app website were tracked and grew by 82%."
+      },
+      {
+        "title": "Install attribution",
+        "text": "Organic app installs that could be attributed to the website were tracked and rose by 36%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks to app website",
+        "result": "+82%"
+      },
+      {
+        "metric": "Feature and use-case keywords improved",
+        "result": "26"
+      },
+      {
+        "metric": "Attributable organic app installs",
+        "result": "+36%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "6 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "b2b-lead-generation-seo-case-study",
@@ -392,12 +1289,59 @@
     "duration": "7 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+76%", "label": "Organic Clicks"},
-      {"value": "145 to 310", "label": "Commercial Keyword Rankings"},
-      {"value": "+69%", "label": "Qualified Organic Leads"}
+      {
+        "value": "+76%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "145 to 310",
+        "label": "Commercial Keyword Rankings"
+      },
+      {
+        "value": "+69%",
+        "label": "Qualified Organic Leads"
+      }
     ],
     "summary": "Over seven months, organic clicks increased by 76%, and commercial keyword rankings expanded from 145 to 310. Qualified leads from organic search increased by 69%, supported by improved service pages and search-intent targeting.",
-    "methods": ["B2B SEO", "Service-page improvements", "Search-intent targeting"]
+    "methods": [
+      "B2B SEO",
+      "Service-page improvements",
+      "Search-intent targeting"
+    ],
+    "objective": "The B2B business needed organic search to produce qualified leads for its sales pipeline, not just traffic.",
+    "approach": [
+      {
+        "title": "Service-page improvements",
+        "text": "Service pages were improved so they answered what B2B buyers need to know before making contact."
+      },
+      {
+        "title": "Search-intent targeting",
+        "text": "Pages were matched to the intent behind commercial searches, and commercial keyword rankings grew from 145 to 310."
+      },
+      {
+        "title": "Qualified lead tracking",
+        "text": "Leads from organic search were assessed for quality, and qualified organic leads rose by 69%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+76%"
+      },
+      {
+        "metric": "Commercial keyword rankings",
+        "result": "145 → 310"
+      },
+      {
+        "metric": "Qualified organic leads",
+        "result": "+69%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "7 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "video-website-seo-case-study",
@@ -412,12 +1356,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+77%", "label": "Website Organic Clicks"},
-      {"value": "29", "label": "Video-Related and Informational Keywords"},
-      {"value": "+42%", "label": "Tracked Video Referral Visits"}
+      {
+        "value": "+77%",
+        "label": "Website Organic Clicks"
+      },
+      {
+        "value": "29",
+        "label": "Video-Related and Informational Keywords"
+      },
+      {
+        "value": "+42%",
+        "label": "Tracked Video Referral Visits"
+      }
     ],
     "summary": "Within five months, website organic clicks increased by 77%. The website improved rankings for 29 video-related and informational keywords, while tracked referral visits from video content increased by 42%.",
-    "methods": ["Video and website SEO", "Video-related and informational keyword visibility", "Tracked video referral visits"]
+    "methods": [
+      "Video and website SEO",
+      "Video-related and informational keyword visibility",
+      "Tracked video referral visits"
+    ],
+    "objective": "The business publishes video content and wanted both its website and its videos to bring in search visitors.",
+    "approach": [
+      {
+        "title": "Video and informational keywords",
+        "text": "Website pages were aligned with video-related and informational searches, improving rankings for 29 keywords."
+      },
+      {
+        "title": "Website organic clicks",
+        "text": "Organic clicks to the website were tracked and grew by 77%."
+      },
+      {
+        "title": "Video referral tracking",
+        "text": "Visits referred from video content were tracked separately and rose by 42%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Website organic clicks",
+        "result": "+77%"
+      },
+      {
+        "metric": "Video-related and informational keywords improved",
+        "result": "29"
+      },
+      {
+        "metric": "Tracked video referral visits",
+        "result": "+42%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "international-ecommerce-seo-case-study",
@@ -432,12 +1423,59 @@
     "duration": "8 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+94%", "label": "Organic Clicks Across Target Countries"},
-      {"value": "42", "label": "Priority International Keywords"},
-      {"value": "+81%", "label": "Organic Product-Page Sessions"}
+      {
+        "value": "+94%",
+        "label": "Organic Clicks Across Target Countries"
+      },
+      {
+        "value": "42",
+        "label": "Priority International Keywords"
+      },
+      {
+        "value": "+81%",
+        "label": "Organic Product-Page Sessions"
+      }
     ],
     "summary": "Over eight months, organic clicks across three target countries increased by 94%. International keyword visibility improved across 42 priority terms, and organic product-page sessions increased by 81%.",
-    "methods": ["International eCommerce SEO", "Three-country keyword visibility", "Organic product-page session measurement"]
+    "methods": [
+      "International eCommerce SEO",
+      "Three-country keyword visibility",
+      "Organic product-page session measurement"
+    ],
+    "objective": "The online store sells into three countries and needed its products to be found in search in each one.",
+    "approach": [
+      {
+        "title": "Three-country keyword visibility",
+        "text": "Visibility was built for 42 priority international keywords across the three target countries."
+      },
+      {
+        "title": "Product-page sessions",
+        "text": "Product pages were treated as the main organic landing pages, and organic product-page sessions grew by 81%."
+      },
+      {
+        "title": "Country-level click tracking",
+        "text": "Organic clicks were tracked across the target countries and grew by 94%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks across target countries",
+        "result": "+94%"
+      },
+      {
+        "metric": "Priority international keywords improved",
+        "result": "42"
+      },
+      {
+        "metric": "Organic product-page sessions",
+        "result": "+81%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "8 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "saas-content-cluster-seo-case-study",
@@ -452,12 +1490,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "35", "label": "Supporting Articles Published"},
-      {"value": "+86%", "label": "Organic Clicks"},
-      {"value": "+51%", "label": "Visits to Primary Commercial Pages"}
+      {
+        "value": "35",
+        "label": "Supporting Articles Published"
+      },
+      {
+        "value": "+86%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "+51%",
+        "label": "Visits to Primary Commercial Pages"
+      }
     ],
     "summary": "The campaign published 35 supporting articles around five core topic clusters over six months. Organic clicks increased by 86%, ranking keywords grew by 64%, and organic visits to the primary commercial pages increased by 51%.",
-    "methods": ["SaaS content SEO", "Five core topic clusters", "Supporting articles linked to commercial pages"]
+    "methods": [
+      "SaaS content SEO",
+      "Five core topic clusters",
+      "Supporting articles linked to commercial pages"
+    ],
+    "objective": "The SaaS company wanted content that ranks on its own and also sends visitors to the main commercial pages.",
+    "approach": [
+      {
+        "title": "Five core topic clusters",
+        "text": "Content was planned around five core topics relevant to the product."
+      },
+      {
+        "title": "Supporting articles",
+        "text": "35 supporting articles were published across those clusters over six months."
+      },
+      {
+        "title": "Links to commercial pages",
+        "text": "The articles were linked to the primary commercial pages, and organic visits to those pages rose by 51%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Supporting articles published",
+        "result": "35 across 5 topic clusters"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+86%"
+      },
+      {
+        "metric": "Ranking keywords",
+        "result": "+64%"
+      },
+      {
+        "metric": "Visits to primary commercial pages",
+        "result": "+51%"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "core-web-vitals-seo-case-study",
@@ -472,12 +1557,59 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "4.1s to 2.3s", "label": "Measured LCP"},
-      {"value": "32% to 78%", "label": "Priority URLs Meeting Thresholds"},
-      {"value": "+31%", "label": "Organic Clicks"}
+      {
+        "value": "4.1s to 2.3s",
+        "label": "Measured LCP"
+      },
+      {
+        "value": "32% to 78%",
+        "label": "Priority URLs Meeting Thresholds"
+      },
+      {
+        "value": "+31%",
+        "label": "Organic Clicks"
+      }
     ],
     "summary": "The campaign improved measured Largest Contentful Paint (LCP) from 4.1 seconds to 2.3 seconds on the selected test pages. The number of priority URLs meeting the targeted performance thresholds increased from 32% to 78%, while organic clicks increased by 31% over five months.",
-    "methods": ["Core Web Vitals optimisation", "LCP measurement on selected test pages", "Priority URL performance-threshold monitoring"]
+    "methods": [
+      "Core Web Vitals optimisation",
+      "LCP measurement on selected test pages",
+      "Priority URL performance-threshold monitoring"
+    ],
+    "objective": "Slow page loading was hurting user experience on priority pages. The goal was to bring those pages within Core Web Vitals thresholds.",
+    "approach": [
+      {
+        "title": "LCP measurement",
+        "text": "Largest Contentful Paint (LCP) was measured on selected test pages to set a baseline of 4.1 seconds."
+      },
+      {
+        "title": "Performance optimisation",
+        "text": "Performance work brought measured LCP down to 2.3 seconds on those test pages."
+      },
+      {
+        "title": "Threshold monitoring",
+        "text": "Priority URLs were monitored against the targeted thresholds, and the share passing rose from 32% to 78%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Measured LCP (selected test pages)",
+        "result": "4.1s → 2.3s"
+      },
+      {
+        "metric": "Priority URLs meeting thresholds",
+        "result": "32% → 78%"
+      },
+      {
+        "metric": "Organic clicks",
+        "result": "+31%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "google-business-profile-seo-case-study",
@@ -492,12 +1624,59 @@
     "duration": "4 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+64%", "label": "Profile Interactions"},
-      {"value": "+51%", "label": "Website Clicks from Profile"},
-      {"value": "17", "label": "Targeted Local Keywords"}
+      {
+        "value": "+64%",
+        "label": "Profile Interactions"
+      },
+      {
+        "value": "+51%",
+        "label": "Website Clicks from Profile"
+      },
+      {
+        "value": "17",
+        "label": "Targeted Local Keywords"
+      }
     ],
     "summary": "Within four months, Google Business Profile interactions increased by 64%. Website clicks from the profile grew by 51%, and the business improved its visibility for 17 targeted local keywords.",
-    "methods": ["Google Business Profile SEO", "Profile interaction and website-click tracking", "Targeted local keyword visibility"]
+    "methods": [
+      "Google Business Profile SEO",
+      "Profile interaction and website-click tracking",
+      "Targeted local keyword visibility"
+    ],
+    "objective": "The local business needed its Google Business Profile to generate more actions from nearby searchers, including visits to its website.",
+    "approach": [
+      {
+        "title": "Profile optimisation",
+        "text": "The Google Business Profile was optimised, and profile interactions grew by 64%."
+      },
+      {
+        "title": "Website clicks from the profile",
+        "text": "Clicks from the profile to the website were tracked and rose by 51%."
+      },
+      {
+        "title": "Local keyword visibility",
+        "text": "Visibility was tracked for 17 targeted local keywords, all of which improved."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Profile interactions",
+        "result": "+64%"
+      },
+      {
+        "metric": "Website clicks from profile",
+        "result": "+51%"
+      },
+      {
+        "metric": "Targeted local keywords improved",
+        "result": "17"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "4 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "ai-search-geo-seo-case-study",
@@ -512,12 +1691,59 @@
     "duration": "4 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "18", "label": "Priority Pages Improved"},
-      {"value": "18", "label": "Documented AI Citations or Mentions"},
-      {"value": "+43%", "label": "Traditional Organic Clicks"}
+      {
+        "value": "18",
+        "label": "Priority Pages Improved"
+      },
+      {
+        "value": "18",
+        "label": "Documented AI Citations or Mentions"
+      },
+      {
+        "value": "+43%",
+        "label": "Traditional Organic Clicks"
+      }
     ],
     "summary": "Over four months, the campaign improved the structure and clarity of 18 priority pages and documented 18 AI-generated search citations or mentions across selected platforms and test queries. Traditional organic clicks increased by 43%. AI visibility was measured through recorded tests rather than assumed rankings.",
-    "methods": ["Generative Engine Optimization (GEO)", "Recorded AI-platform tests using selected queries", "Traditional organic-click measurement"]
+    "methods": [
+      "Generative Engine Optimization (GEO)",
+      "Recorded AI-platform tests using selected queries",
+      "Traditional organic-click measurement"
+    ],
+    "objective": "The goal was to make priority pages easier for AI search tools to understand and cite, while keeping traditional organic search growing.",
+    "approach": [
+      {
+        "title": "Page structure and clarity",
+        "text": "18 priority pages were improved for structure and clarity so their answers were easier to extract."
+      },
+      {
+        "title": "Recorded AI-platform tests",
+        "text": "AI visibility was checked with recorded tests on selected platforms and queries, documenting 18 citations or mentions."
+      },
+      {
+        "title": "Traditional search tracking",
+        "text": "Traditional organic clicks were tracked in parallel and grew by 43%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Priority pages improved",
+        "result": "18"
+      },
+      {
+        "metric": "Documented AI citations or mentions",
+        "result": "18 (recorded tests)"
+      },
+      {
+        "metric": "Traditional organic clicks",
+        "result": "+43%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "4 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "local-pharmacy-seo-case-study",
@@ -532,12 +1758,59 @@
     "duration": "6 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+58%", "label": "Organic Clicks"},
-      {"value": "20", "label": "Product and Service Keywords Improved"},
-      {"value": "+46%", "label": "Priority Category-Page Visits"}
+      {
+        "value": "+58%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "20",
+        "label": "Product and Service Keywords Improved"
+      },
+      {
+        "value": "+46%",
+        "label": "Priority Category-Page Visits"
+      }
     ],
     "summary": "Within six months, organic clicks increased by 58%, and 20 product-category and service keywords achieved improved rankings. Organic visits to priority category pages increased by 46%, strengthening the website's visibility for relevant pharmacy searches.",
-    "methods": ["Local SEO", "Product-category and service keyword visibility", "Priority category-page visit measurement"]
+    "methods": [
+      "Local SEO",
+      "Product-category and service keyword visibility",
+      "Priority category-page visit measurement"
+    ],
+    "objective": "The pharmacy wanted more local searchers finding its product categories and services online.",
+    "approach": [
+      {
+        "title": "Product-category and service keywords",
+        "text": "Pages were aligned with product-category and service searches, improving rankings for 20 keywords."
+      },
+      {
+        "title": "Priority category pages",
+        "text": "Priority category pages were the focus, and organic visits to them grew by 46%."
+      },
+      {
+        "title": "Click measurement",
+        "text": "Organic clicks were tracked across the campaign and rose by 58%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+58%"
+      },
+      {
+        "metric": "Product and service keywords improved",
+        "result": "20"
+      },
+      {
+        "metric": "Priority category-page visits",
+        "result": "+46%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "6 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "financial-services-seo-case-study",
@@ -552,12 +1825,59 @@
     "duration": "7 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+67%", "label": "Organic Clicks"},
-      {"value": "28", "label": "Targeted Financial-Service Keywords"},
-      {"value": "+63%", "label": "Qualified Organic Enquiries"}
+      {
+        "value": "+67%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "28",
+        "label": "Targeted Financial-Service Keywords"
+      },
+      {
+        "value": "+63%",
+        "label": "Qualified Organic Enquiries"
+      }
     ],
     "summary": "Over seven months, organic clicks increased by 67%, and rankings improved for 28 targeted financial-service keywords. Qualified organic enquiries increased by 63%, supported by more detailed service pages and technical improvements.",
-    "methods": ["Financial services SEO", "Detailed service-page improvements", "Technical improvements and qualified enquiry tracking"]
+    "methods": [
+      "Financial services SEO",
+      "Detailed service-page improvements",
+      "Technical improvements and qualified enquiry tracking"
+    ],
+    "objective": "The financial services business needed more qualified enquiries from search in a field where trust and detail matter to buyers.",
+    "approach": [
+      {
+        "title": "Detailed service pages",
+        "text": "Service pages were made more detailed so they answered the questions people have before contacting a financial provider."
+      },
+      {
+        "title": "Technical improvements",
+        "text": "Technical improvements were made to support how the service pages were crawled and ranked."
+      },
+      {
+        "title": "Keyword and enquiry tracking",
+        "text": "Rankings for 28 targeted financial-service keywords improved, and qualified organic enquiries rose by 63%."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+67%"
+      },
+      {
+        "metric": "Targeted financial-service keywords improved",
+        "result": "28"
+      },
+      {
+        "metric": "Qualified organic enquiries",
+        "result": "+63%"
+      },
+      {
+        "metric": "Timeframe",
+        "result": "7 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "seo-traffic-recovery-case-study",
@@ -572,12 +1892,55 @@
     "duration": "5 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+76%", "label": "Daily Clicks from Documented Low"},
-      {"value": "22", "label": "Priority Keywords Regained or Improved"},
-      {"value": "5 months", "label": "Recovery Period"}
+      {
+        "value": "+76%",
+        "label": "Daily Clicks from Documented Low"
+      },
+      {
+        "value": "22",
+        "label": "Priority Keywords Regained or Improved"
+      },
+      {
+        "value": "5 months",
+        "label": "Recovery Period"
+      }
     ],
     "summary": "Following a period of declining organic traffic, the campaign increased daily clicks by 76% from the documented lowest point over five months. Twenty-two priority keywords regained previous positions or improved, while indexing and technical issues affecting key landing pages were addressed.",
-    "methods": ["SEO traffic recovery", "Indexing and technical issue resolution", "Priority keyword position monitoring"]
+    "methods": [
+      "SEO traffic recovery",
+      "Indexing and technical issue resolution",
+      "Priority keyword position monitoring"
+    ],
+    "objective": "Organic traffic had been declining. The goal was to find what was holding key landing pages back and recover lost positions.",
+    "approach": [
+      {
+        "title": "Indexing and technical fixes",
+        "text": "Indexing and technical issues affecting key landing pages were identified and addressed."
+      },
+      {
+        "title": "Priority keyword monitoring",
+        "text": "Priority keywords were monitored, and 22 of them regained previous positions or improved."
+      },
+      {
+        "title": "Recovery measurement",
+        "text": "Daily clicks were measured from the documented lowest point and rose by 76% over five months."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Daily clicks from documented low",
+        "result": "+76%"
+      },
+      {
+        "metric": "Priority keywords regained or improved",
+        "result": "22"
+      },
+      {
+        "metric": "Recovery period",
+        "result": "5 months"
+      }
+    ],
+    "modified": "2026-10-26"
   },
   {
     "slug": "comprehensive-seo-geo-case-study",
@@ -592,11 +1955,62 @@
     "duration": "8 months",
     "date": "2026-10-26",
     "stats": [
-      {"value": "+118%", "label": "Organic Clicks"},
-      {"value": "410 to 890", "label": "Ranking Keywords"},
-      {"value": "+57%", "label": "Qualified Organic Enquiries"}
+      {
+        "value": "+118%",
+        "label": "Organic Clicks"
+      },
+      {
+        "value": "410 to 890",
+        "label": "Ranking Keywords"
+      },
+      {
+        "value": "+57%",
+        "label": "Qualified Organic Enquiries"
+      }
     ],
     "summary": "Within eight months, organic clicks increased by 118%, search impressions grew by 92%, and ranking keywords expanded from 410 to 890. Qualified organic enquiries increased by 57%, following a coordinated strategy covering technical SEO, content optimisation, local visibility, relevant link acquisition, and AI search content improvements.",
-    "methods": ["Technical SEO", "Content optimisation and local visibility", "Relevant link acquisition and AI search content improvements"]
+    "methods": [
+      "Technical SEO",
+      "Content optimisation and local visibility",
+      "Relevant link acquisition and AI search content improvements"
+    ],
+    "objective": "The business wanted growth across every part of search at once: traditional rankings, local visibility, and AI search, all leading to qualified enquiries.",
+    "approach": [
+      {
+        "title": "Technical SEO",
+        "text": "Technical foundations were addressed so the site could be crawled and indexed reliably."
+      },
+      {
+        "title": "Content optimisation and local visibility",
+        "text": "Content was optimised for search intent, and local visibility was improved alongside it."
+      },
+      {
+        "title": "Relevant link acquisition",
+        "text": "Links were acquired from relevant websites to build authority."
+      },
+      {
+        "title": "AI search content improvements",
+        "text": "Content was improved so AI search tools could understand and use it."
+      }
+    ],
+    "results": [
+      {
+        "metric": "Organic clicks",
+        "result": "+118%"
+      },
+      {
+        "metric": "Search impressions",
+        "result": "+92%"
+      },
+      {
+        "metric": "Ranking keywords",
+        "result": "410 → 890"
+      },
+      {
+        "metric": "Qualified organic enquiries",
+        "result": "+57%"
+      }
+    ],
+    "modified": "2026-10-26"
   }
 ]

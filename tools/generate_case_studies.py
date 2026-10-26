@@ -29,6 +29,22 @@ FOOTER = FOOTER.replace(
 )
 REQUIRED = ["slug", "meta_title", "title", "description", "service", "industry", "markets", "date",
             "duration", "stats", "summary", "methods"]
+# Optional fields: objective (str), approach ([{title, text}]), results ([{metric, result}]), faq ([{q, a}]).
+DEFAULT_IMAGE = "assets/img/seo-growth-chart.png"
+SERVICE_PAGES = {
+    "Local SEO": ("local-seo-sri-lanka", "Local SEO services"),
+    "Google Business Profile SEO": ("google-maps-seo-sri-lanka", "Google Maps and Business Profile SEO"),
+    "eCommerce SEO": ("ecommerce-seo-sri-lanka", "eCommerce SEO services"),
+    "International eCommerce SEO": ("ecommerce-seo-sri-lanka", "eCommerce SEO services"),
+    "Technical SEO": ("technical-seo-sri-lanka", "Technical SEO services"),
+    "WordPress SEO": ("technical-seo-sri-lanka", "Technical SEO services"),
+    "Website Migration SEO": ("technical-seo-sri-lanka", "Technical SEO services"),
+    "Core Web Vitals Optimisation": ("technical-seo-sri-lanka", "Technical SEO services"),
+    "SEO Traffic Recovery": ("seo-audit-sri-lanka", "SEO audit services"),
+    "AI Search Visibility and GEO": ("ai-seo", "AI SEO and GEO services"),
+    "Comprehensive SEO and GEO": ("ai-seo", "AI SEO and GEO services"),
+    "Content Cluster SEO": ("on-page-seo-sri-lanka", "On-page and content SEO services"),
+}
 
 
 def dims(path):
@@ -60,21 +76,59 @@ def paras(items):
     return "".join(f"            <p>{e(t)}</p>\n" for t in items)
 
 
-def page(c, out_dir):
+def faqs(c):
+    """Questions answered only from the case's own data, plus any custom ones."""
+    headline = "; ".join(f'{s["label"]}: {s["value"]}' for s in c["stats"])
+    out = [
+        (f"How long did this {c['service']} campaign take?",
+         f"The reported timeframe was {c['duration']}. {c['summary'].split('. ')[0].rstrip('.')}."),
+        ("What results did the campaign achieve?", f"{headline}. {c['summary'].split('. ', 1)[-1]}"),
+        ("What work was carried out?",
+         " ".join(s["text"] for s in c["approach"]) if c.get("approach")
+         else "The work covered: " + "; ".join(c["methods"]) + "."),
+        ("Can I expect the same results for my business?",
+         "Not necessarily. These are reported outcomes for one campaign, not guarantees. Results depend on the "
+         "website's starting point, competition, market, budget, and how quickly changes are implemented. "
+         "A free SEO review sets a realistic baseline for your own site."),
+        ("Why is the client not named?",
+         "Client names and domains are withheld to protect client confidentiality. The industry, market, "
+         "timeframe, and measured results are reported as recorded for the campaign."),
+    ]
+    out += [(f["q"], f["a"]) for f in c.get("faq", [])]
+    return out
+
+
+def related(c, cases, n=3):
+    others = [x for x in cases if x["slug"] != c["slug"]]
+    page_of = lambda x: SERVICE_PAGES.get(x["service"], ("services",))[0]
+    score = lambda x: (x["service"] == c["service"]) * 4 + (page_of(x) == page_of(c)) * 2 + (x["industry"] == c["industry"])
+    return sorted(others, key=lambda x: -score(x))[:n]
+
+
+def page(c, out_dir, cases):
     slug, url = c["slug"], f"{SITE}/{c['slug']}"
     nda = c.get("nda", False)
     kws = [c["service"].lower(), f"{c['industry'].lower()} seo", "seo case study"]
     html = head(c["meta_title"], c["description"], slug, kws)
+    image = c["proof"][0]["image"] if c.get("proof") else DEFAULT_IMAGE
+    svc_page = SERVICE_PAGES.get(c["service"], ("services", "SEO services"))
+    service = {"@type": "Service", "name": c["service"], "serviceType": c["service"],
+               "provider": {"@id": SITE + "/#organization"}, "url": f"{SITE}/{svc_page[0]}"}
     article = {
         "@context": "https://schema.org", "@type": "Article", "@id": url + "#article",
         "headline": c["title"], "description": c["description"], "url": url, "inLanguage": "en",
         "datePublished": c["date"], "dateModified": c.get("modified", c["date"]),
         "author": {"@id": SITE + "/#person"}, "publisher": {"@id": SITE + "/#organization"},
-        "mainEntityOfPage": url, "about": [c["service"], c["industry"]],
+        "mainEntityOfPage": url, "image": f"{SITE}/{image}",
+        "articleSection": "SEO Case Studies", "keywords": ", ".join(kws),
+        "isPartOf": {"@id": f"{SITE}/{HUB}#collection"},
+        "about": [service, {"@type": "Thing", "name": c["industry"]}],
+        "abstract": c["summary"],
     }
-    if c.get("proof"):
-        article["image"] = f"{SITE}/{c['proof'][0]['image']}"
     html += ld(article)
+    html += ld({"@context": "https://schema.org", "@type": "FAQPage", "@id": url + "#faq",
+                "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}}
+                               for q, a in faqs(c)]})
     html += ld(breadcrumb_ld([("Home", SITE + "/"), ("Case Studies", f"{SITE}/{HUB}"), (c["title"], url)]))
     html += '    <link rel="icon" type="image/png" href="assets/img/favicon.png">\n</head>\n' + HEADER
 
@@ -92,8 +146,18 @@ def page(c, out_dir):
         f"This anonymized {c['industry']} campaign applied {c['service']} "
         f"for {c['markets']}, with a reported timeframe of {c['duration']}."
     )
-    metric_labels = ", ".join(s["label"] for s in c["stats"])
-    method_summary = ", ".join(c["methods"])
+    objective = f"            <h2>The Objective</h2>\n            <p>{e(c['objective'])}</p>\n" if c.get("objective") else ""
+    steps = "".join(
+        f'            <h3><span class="cs-num">{i:02d}</span>{e(s["title"])}</h3>\n            <p>{e(s["text"])}</p>\n'
+        for i, s in enumerate(c.get("approach", []), 1))
+    rows = "".join(f'                <tr><td>{e(r["metric"])}</td><td>{e(r["result"])}</td></tr>\n'
+                   for r in c.get("results") or [{"metric": s["label"], "result": s["value"]} for s in c["stats"]])
+    faq_items = "".join(
+        f'            <details class="faq-item"{" open" if i == 0 else ""}>\n                <summary>{e(q)}</summary>\n                <p>{e(a)}</p>\n            </details>\n'
+        for i, (q, a) in enumerate(faqs(c)))
+    related_cards = "".join(
+        f'            <a href="{x["slug"]}" class="explore-card"><h3>{e(x["title"])}</h3><p>{e(x["industry"])} &middot; {e(x["service"])}</p><p><strong>{e(" | ".join(s["value"] + " " + s["label"] for s in x["stats"][:2]))}</strong></p></a>\n'
+        for x in related(c, cases))
     nda_block = ""
     if nda:
         nda_block = f"""<section class="section section-alt">
@@ -138,19 +202,54 @@ def page(c, out_dir):
             <p>{e(c["summary"])}</p>
             <h2>Campaign Scope</h2>
             <p>{e(scope)}</p>
-            <h2>Approach and Work Covered</h2>
-            <p>The documented work focused on {e(method_summary)}.</p>
-            <h2>Work Covered</h2>
+{objective}            <h2>What Was Done</h2>
+{steps}            <h2>Work Covered</h2>
             <ul>
 {methods}            </ul>
-            <h2>Reported Outcomes</h2>
-            <p>The headline indicators for this campaign include {e(metric_labels)}. Read these measures alongside the campaign summary and the stated market and timeframe.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">Measured Outcomes</span>
+            <h2>Results at a Glance</h2>
+        </div>
+        <table class="compare-table">
+            <thead><tr><th>Metric</th><th>Reported result</th></tr></thead>
+            <tbody>
+{rows}            </tbody>
+        </table>
+        <div class="prose">
             <h2>How to Interpret These Results</h2>
             <p>These are reported outcomes for this campaign, not guaranteed benchmarks or forecasts. Traffic, ranking, enquiry, and technical measures describe different aspects of performance and should not be compared as if they were equivalent. A future campaign should be assessed against its own baseline, measurement setup, market, and business goals.</p>
             <h2>Practical Takeaway</h2>
-            <p>For other {e(c["industry"].lower())} businesses considering {e(c["service"])}, this case offers an example of the measures that can be monitored. The right priorities depend on the business's starting position, target audience, and objectives.</p>
+            <p>For other {e(c["industry"].lower())} businesses considering {e(c["service"])}, this case shows which measures are worth tracking from day one: search visibility, clicks, and the business action that matters most, such as enquiries, sales, or sign-ups. The right priorities depend on the business's starting position, target audience, and objectives. Learn more about <a href="{svc_page[0]}">{e(svc_page[1])}</a>.</p>
             <p>Client names and domains are omitted from this case study. Results and timeframes are reported as supplied for the campaign.</p>
         </div>
+    </div>
+</section>
+
+<section class="section section-alt">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">FAQ</span>
+            <h2>{e(c["title"])}: Questions Answered</h2>
+        </div>
+        <div class="faq-list">
+{faq_items}        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">More Results</span>
+            <h2>Related Case Studies</h2>
+        </div>
+        <div class="grid grid-3">
+{related_cards}        </div>
     </div>
 </section>
 
@@ -176,8 +275,12 @@ def hub(cases, out_dir):
     title, desc = "SEO Case Studies | Campaign Results", "Anonymized SEO case studies from real campaigns across industries and markets, with reported campaign timeframes and outcomes."
     url = f"{SITE}/{HUB}"
     html = head(title, desc, HUB, ["seo case studies", "seo results"], "website")
-    html += ld({"@context": "https://schema.org", "@type": "CollectionPage", "url": url, "name": title, "description": desc,
-                "inLanguage": "en", "isPartOf": {"@id": SITE + "/#website"}})
+    html += ld({"@context": "https://schema.org", "@type": "CollectionPage", "@id": url + "#collection", "url": url,
+                "name": title, "description": desc, "inLanguage": "en", "isPartOf": {"@id": SITE + "/#website"},
+                "author": {"@id": SITE + "/#person"}, "publisher": {"@id": SITE + "/#organization"},
+                "mainEntity": {"@type": "ItemList", "numberOfItems": len(cases), "itemListElement": [
+                    {"@type": "ListItem", "position": i, "url": f"{SITE}/{c['slug']}", "name": c["title"]}
+                    for i, c in enumerate(cases, 1)]}})
     html += ld(breadcrumb_ld([("Home", SITE + "/"), ("Case Studies", url)]))
     html += '    <link rel="icon" type="image/png" href="assets/img/favicon.png">\n</head>\n' + HEADER
     cards = "".join(
@@ -235,7 +338,7 @@ if __name__ == "__main__":
         sys.exit(0)
     os.makedirs(a.out, exist_ok=True)
     for c in ok:
-        page(c, a.out)
+        page(c, a.out, ok)
     hub(ok, a.out)
     if os.path.abspath(a.out) == os.path.abspath(ROOT):
         sitemap([c["slug"] for c in ok])
