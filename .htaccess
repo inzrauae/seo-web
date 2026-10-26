@@ -37,16 +37,6 @@ ErrorDocument 500 /500.html
 </IfModule>
 
 # ================================================
-# REDIRECT ONLY ABOUT AND SERVICES TO SEOSERVICE.LK
-# Everything else stays on this site.
-# ================================================
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteRule ^about(\.html)?/?$ https://seoservice.lk/about [R=301,L]
-    RewriteRule ^services(\.html)?/?$ https://seoservice.lk/services [R=301,L]
-</IfModule>
-
-# ================================================
 # REMOVE .HTML EXTENSION FROM URLS
 # ================================================
 <IfModule mod_rewrite.c>
@@ -64,7 +54,7 @@ ErrorDocument 500 /500.html
 </IfModule>
 
 # Block direct access to sensitive file types even if linked/discovered
-<FilesMatch "\.(bak|backup|old|sql|log|env|config)$">
+<FilesMatch "\.(bak|backup|old|sql|log|env|config|ps1|md)$|^(LOCAL-SERVER-SETUP|URL-EXTENSION-REMOVAL-SUMMARY)\.txt$">
     Require all denied
 </FilesMatch>
 
