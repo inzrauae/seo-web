@@ -38,7 +38,7 @@ if (empty($_POST["message"])) {
 }
 
 
-$EmailTo = "seo@inzra.com";
+$EmailTo = "admin@seoconsultantsrilanka.com";
 
 $Subject = "New Contact Form Submission - " . $subject;
 
