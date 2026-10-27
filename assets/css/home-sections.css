@@ -1,0 +1,51 @@
+.section-shortcuts { background:#1c241d; border-block:1px solid var(--border); }
+.section-shortcuts .container { display:flex; flex-wrap:wrap; align-items:center; gap:24px; padding-block:20px; font-size:12px; }
+.section-shortcuts .container>span { margin-right:auto; color:var(--ink-faint); }
+.goal-layout,.reporting-layout,.roadmap-heading { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:40px; align-items:center; }
+.goal-layout { margin-top:36px; }
+.goal-options { display:grid; gap:14px; }
+.goal-option { display:flex; align-items:center; gap:20px; width:100%; padding:26px; border:1px solid var(--border); border-radius:14px; background:#ffffff03; color:var(--ink); font:inherit; text-align:left; cursor:pointer; }
+.goal-option[aria-pressed="true"] { border-color:var(--accent); background:#e8c76a0b; }
+.goal-option:hover { background:#e8c76a12; }
+.goal-option strong,.goal-option small { display:block; }
+.goal-option strong { font-size:16px; font-weight:600; }
+.goal-option small { font-size:12px; color:var(--ink-faint); margin-top:5px; }
+.goal-number,.goal-option>span:last-child { color:var(--accent); font-size:13px; }
+.goal-option>span:last-child { margin-left:auto; }
+.goal-detail,.reporting-panel { padding:32px; border:1px solid #e8c76a33; border-radius:20px; background:linear-gradient(135deg,#283125,#181e1a); }
+.home-modern .goal-detail h3 { font-size:29px; margin-top:16px; line-height:1.2; }
+.goal-detail p,.goal-detail li { font-size:14px; }
+.goal-detail ul { margin-block:24px; padding-left:20px; }
+.goal-detail li { margin-block:9px; }
+.goal-detail li::marker { color:var(--accent); }
+.goal-detail .goal-note { margin:16px 0 0; font-size:11px; color:var(--ink-faint); }
+.home-modern .roadmap-section { background:#191f1a; border-block:1px solid var(--border); }
+.roadmap-heading { margin-bottom:36px; }
+.roadmap-heading .section-head { margin-bottom:0; }
+.roadmap-heading>p { font-size:14px; }
+.roadmap-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
+.roadmap-card { padding:28px; border:1px solid var(--border); border-radius:18px; background:#ffffff03; }
+.roadmap-period { color:var(--accent); font-size:10px; letter-spacing:.12em; text-transform:uppercase; }
+.roadmap-marker { display:grid; place-items:center; width:48px; height:48px; border:1px solid #e8c76a55; border-radius:50%; margin:26px 0; color:var(--accent); }
+.home-modern .roadmap-card h3 { font-size:21px; }
+.roadmap-card p { font-size:13px; line-height:1.85; }
+.roadmap-deliverable { padding-top:20px; margin-top:26px; border-top:1px solid var(--border); }
+.roadmap-deliverable small,.roadmap-deliverable strong { display:block; }
+.roadmap-deliverable small { color:var(--ink-faint); font-size:10px; text-transform:uppercase; margin-bottom:7px; }
+.roadmap-deliverable strong { font-size:12px; color:var(--ink); font-weight:500; }
+.reporting-layout .section-head { margin:0; }
+.text-link { display:inline-block; padding-block:12px; border-bottom:1px solid #e8c76a55; font-size:14px; color:var(--accent); }
+.reporting-panel { padding:0; overflow:hidden; }
+.reporting-panel-header { display:flex; flex-wrap:wrap; align-items:center; gap:10px; padding:22px; border-bottom:1px solid var(--border); }
+.reporting-panel-header strong { color:var(--ink); font-size:12px; font-weight:500; }
+.reporting-panel-header>span:last-child { margin-left:auto; color:var(--ink-faint); font-size:10px; }
+.status-dot { width:6px; height:6px; background:var(--accent); border-radius:50%; }
+.reporting-row { display:flex; gap:20px; padding:24px; border-bottom:1px solid var(--border); }
+.reporting-symbol { color:var(--accent); font-size:24px; line-height:1; }
+.home-modern .reporting-row h3 { font-size:16px; margin-bottom:8px; }
+.reporting-row p { font-size:12px; margin:0; }
+.reporting-footnote { padding:18px 24px; margin:0; font-size:11px; color:var(--ink-faint); }
+.home-modern .blog-card { border-radius:18px; background:linear-gradient(145deg,#202620,#191d1b); border:1px solid var(--border); box-shadow:none; }
+.home-modern .blog-card h3 { line-height:1.4; }
+.home-modern .go-top { border:1px solid #e8c76a44; cursor:pointer; }
+@media(max-width:700px) { .goal-layout,.reporting-layout,.roadmap-heading,.roadmap-grid { grid-template-columns:minmax(0,1fr); gap:24px; } .section-shortcuts .container>span { flex-basis:100%; } .goal-option { padding:20px; gap:14px; } .goal-option strong { font-size:14px; } .goal-option small { font-size:11px; } .goal-detail { padding:24px; } }

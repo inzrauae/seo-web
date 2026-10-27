@@ -1,0 +1,87 @@
+﻿/* Homepage design. Kept separate from the shared inner-page theme. */
+body.home-modern { --bg:#101212; --bg-alt:#161918; --surface:#1c201e; --ink:#f5f4ed; --ink-soft:#b5bcb5; --ink-faint:#919b93; --accent:#e8c76a; --accent-dark:#e8c76a; --accent-light:#f6dfa0; --border:rgba(225,233,218,.12); --max:1240px; --radius:20px; background:var(--bg); }
+.home-modern h1,.home-modern h2,.home-modern h3 { font-family:Inter,sans-serif; letter-spacing:-.045em; }
+.home-modern h2 { font-size:clamp(28px,3.2vw,42px); line-height:1.17; }
+.home-modern .section { padding:96px 0; }
+.home-modern .section-head { max-width:760px; }
+.home-modern .eyebrow { font-size:11px; letter-spacing:.15em; color:var(--accent); }
+.home-modern .site-header { background:rgba(16,18,18,.92); border-color:var(--border); }
+.home-modern .brand-logo { height:47px; }
+.home-modern .menu { gap:25px; }
+.home-modern .menu a { font-size:13px; }
+.home-modern .menu a[aria-current] { color:var(--accent); opacity:1; }
+.home-modern .phone-cta { border-radius:10px; background:#e8c76a; box-shadow:none; font-size:12px; }
+.home-modern .btn { border-radius:10px; padding:15px 23px; font-size:13px; letter-spacing:0; }
+.home-modern .btn-gold { background:#e8c76a; box-shadow:0 6px 24px #e8c76a12; }
+.home-modern .btn-gold:hover { background:#f6dfa0; color:#191a14; }
+.home-modern .btn-outline { color:var(--ink); border:1px solid #ffffff29; }
+.home-modern .btn-outline:hover { background:#ffffff08; border-color:var(--accent); }
+.home-modern a:focus-visible,.home-modern button:focus-visible,.home-modern summary:focus-visible { outline:3px solid var(--accent); outline-offset:5px; }
+.home-modern [id] { scroll-margin-top:100px; }
+.skip-link { position:fixed; top:-80px; left:20px; z-index:1100; background:var(--accent); color:#111; padding:12px 20px; border-radius:8px; }
+.skip-link:focus { top:12px; }
+.home-modern .hero { padding:74px 0 60px; background:radial-gradient(ellipse at 80% 35%,#91a58413,transparent 55%),#101212; border-bottom:0; }
+.home-modern .hero::before,.home-modern .hero::after { display:none; }
+.home-modern .hero .container { grid-template-columns:1.15fr 1fr; gap:70px; }
+.home-modern .hero-content { grid-column:1; grid-row:1; }
+.home-modern .hero-badge { display:inline-flex; align-items:center; gap:9px; margin:0 0 24px; padding:7px 11px; font-size:10px; letter-spacing:.13em; text-transform:uppercase; background:#ffffff04; border:1px solid var(--border); box-shadow:none; }
+.home-modern .hero-badge::before { content:''; width:6px; height:6px; border-radius:50%; background:var(--accent); box-shadow:0 0 12px #e8c76a55; }
+.home-modern .hero h1 { font-size:clamp(42px,4.8vw,65px); line-height:1.07; font-weight:600; margin-bottom:24px; }
+.home-modern .hero h1 .hl { background:none; color:var(--accent); }
+.home-modern .hero-desc { font-size:15px; line-height:1.85; max-width:490px; margin-bottom:26px; }
+.hero-signature { font-size:12px; color:var(--ink-faint); margin:20px 0 0; }
+.hero-signature strong { color:var(--ink); font-weight:500; }
+.hero-proof { display:flex; gap:28px; border-top:1px solid var(--border); padding-top:22px; margin-top:30px; }
+.hero-proof div { display:flex; flex-direction:column; gap:2px; }
+.hero-proof strong { color:var(--ink); font-size:21px; letter-spacing:-.04em; }
+.hero-proof span { font-size:10px; color:var(--ink-faint); }
+.home-modern .hero-portrait-wrap { grid-column:2; grid-row:1; position:relative; padding:0 14px 25px 0; }
+.home-modern .hero-portrait-wrap::before { content:''; position:absolute; inset:22px 0 0 22px; border:1px solid #e8c76a45; border-radius:160px 22px 22px 22px; }
+.home-modern .hero .hero-portrait { position:relative; height:530px; width:100%; max-width:none; border-radius:150px 18px 18px 18px; border:0; object-position:center 34%; filter:saturate(.75); box-shadow:none; }
+.portrait-caption { position:absolute; bottom:47px; left:-24px; right:40px; background:rgba(20,25,22,.94); backdrop-filter:blur(14px); border:1px solid #ffffff22; padding:17px 20px; border-radius:13px; display:flex; align-items:center; gap:13px; box-shadow:0 14px 30px #0003; }
+.portrait-caption .caption-icon { display:grid; place-items:center; width:40px; height:40px; border-radius:10px; background:#e8c76a; color:#222; font-size:19px; }
+.portrait-caption strong { display:block; color:var(--ink); font-size:13px; }
+.portrait-caption small { color:var(--ink-faint); font-size:11px; }
+.home-modern .trust-credentials { background:transparent; padding:32px 0 40px; border-bottom:1px solid var(--border); }
+.home-modern .trust-credentials .container { display:grid; grid-template-columns:220px 1fr; gap:50px; align-items:center; }
+.home-modern .trust-credentials-heading { text-align:left; margin:0; }
+.home-modern .trust-credentials-heading h2 { font-size:16px; letter-spacing:-.02em; line-height:1.45; }
+.home-modern .trust-credentials-heading .eyebrow { font-size:9px; }
+.home-modern .trust-logo-list { gap:18px; }
+.home-modern .trust-logo-list li { background:linear-gradient(145deg,#202620,#191d1b); border:1px solid var(--border); border-radius:9px; padding:9px; }
+.home-modern .trust-logo-list img { height:38px; object-fit:contain; aspect-ratio:auto; }
+.home-modern .stat-row { gap:16px; padding:0; }
+.home-modern .stat { padding:30px 16px; background:#ffffff03; box-shadow:none; border-radius:15px; }
+.home-modern .stat .num { font-family:Inter,sans-serif; font-size:42px; font-weight:500; letter-spacing:-.06em; color:var(--accent); }
+.home-modern .stat p { font-size:12px; }
+.home-modern .card,.home-modern .explore-card { background:linear-gradient(145deg,#202620,#191d1b); border:1px solid var(--border); border-radius:18px; padding:30px; box-shadow:none; }
+.home-modern .card:hover,.home-modern .explore-card:hover { border-color:#e8c76a66; transform:translateY(-4px); box-shadow:0 18px 40px #0002; }
+.home-modern .card h3,.home-modern .explore-card h3 { font-size:19px; line-height:1.4; letter-spacing:-.025em; }
+.home-modern .card p,.home-modern .explore-card p { font-size:14px; line-height:1.8; }
+.home-modern .card .icon { background:#e8c76a12; color:var(--accent); box-shadow:none; border:1px solid #e8c76a22; border-radius:12px; }
+.home-modern .cs-track .explore-card { border-top:2px solid #e8c76a80; min-height:200px; }
+.home-modern .cs-track .explore-card::after { content:'Read case study ↗'; display:block; color:var(--accent); font-size:12px; margin-top:20px; }
+.home-modern .panel { background:linear-gradient(120deg,#252c23,#181e1a); border:1px solid var(--border); box-shadow:none; border-radius:22px; }
+.home-modern .panel li { margin-bottom:10px; }
+.home-modern .step { padding:24px; border:1px solid var(--border); border-radius:16px; background:#ffffff02; }
+.home-modern .step .step-num { background:#e8c76a12; color:var(--accent); box-shadow:none; border:1px solid #e8c76a33; }
+.home-modern .compare-table { border-radius:16px; box-shadow:none; }
+.home-modern .compare-table th { background:#273026; color:var(--accent-light); }
+.home-modern .compare-table td:first-child { white-space:normal; }
+.home-modern .faq-list { max-width:850px; margin:auto; }
+.home-modern .faq-item { background:#ffffff03; border:1px solid var(--border); border-radius:13px; margin-bottom:12px; box-shadow:none; }
+.home-modern .faq-item[open] { border-color:#e8c76a55; background:#e8c76a05; }
+.home-modern .faq-item summary { font-size:15px; }
+.home-modern .form-control { background:#101612; border-color:#ffffff24; border-radius:10px; color:var(--ink); }
+.home-modern .form-control:focus { border-color:var(--accent); box-shadow:0 0 0 3px #e8c76a12; }
+.home-modern .cta-band { margin:24px; border-radius:24px; border:1px solid #e8c76a30; background:radial-gradient(ellipse at top,#e8c76a16,transparent 65%),#1a211b; }
+.home-modern .cta-band h2 { max-width:780px; margin:0 auto 20px; }
+.home-modern .site-footer { background:#0c100e; border-top:1px solid var(--border); }
+.home-modern .site-footer h3 { font-size:14px; letter-spacing:0; }
+.home-modern .site-footer p,.home-modern .site-footer li { font-size:12px; }
+.home-modern .emoji { font-size:22px; }
+.home-modern .mobile-menu[hidden] { display:none; }
+@media(min-width:900px) and (max-width:1100px) { .home-modern .menu { gap:16px; } .home-modern .nav-inner { gap:16px; } .home-modern .hero .container { gap:36px; } }
+@media(max-width:899px) { .home-modern .hero { padding-top:45px; } .home-modern .hero .container { grid-template-columns:1fr 1fr; gap:30px; } .home-modern .hero h1 { font-size:43px; } .home-modern .hero .hero-portrait { height:490px; } .portrait-caption { left:-12px; right:25px; padding:13px; } .hero-proof { gap:18px; } .home-modern .trust-credentials .container { grid-template-columns:1fr; gap:22px; } .home-modern .trust-credentials-heading { text-align:center; } .home-modern .section { padding:64px 0; } }
+@media(max-width:640px) { .home-modern .container { padding-left:20px; padding-right:20px; } .home-modern .hero .container { grid-template-columns:1fr; gap:38px; } .home-modern .hero-content { grid-column:1; grid-row:1; } .home-modern .hero-portrait-wrap { grid-column:1; grid-row:2; margin:0 12px; } .home-modern .hero h1 { font-size:46px; max-width:450px; } .home-modern .hero .hero-portrait { height:430px; border-radius:110px 18px 18px 18px; } .home-modern .hero-desc { font-size:14px; } .home-modern .hero-badge { font-size:9px; } .home-modern .hero .btn-row { gap:10px; } .home-modern .hero .btn { padding:14px 17px; } .home-modern .hero-proof { justify-content:space-between; gap:12px; } .home-modern .trust-logo-list { grid-template-columns:repeat(3,1fr); gap:10px; } .home-modern .trust-logo-list img { height:32px; } .home-modern .stat-row { grid-template-columns:repeat(2,minmax(0,1fr)); } .home-modern .stat .num { font-size:34px; } .home-modern .card,.home-modern .explore-card { padding:24px; } .home-modern .compare-table { font-size:11px; table-layout:fixed; } .home-modern .compare-table td,.home-modern .compare-table th { padding:12px 8px; overflow-wrap:anywhere; } .home-modern .cta-band { margin:12px; padding:56px 0; } .home-modern .panel { padding:25px; } .home-modern .site-footer .brand-logo { max-width:170px; height:auto; } }
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } .home-modern *, .home-modern *::before,.home-modern *::after { animation:none!important; transition:none!important; } }
