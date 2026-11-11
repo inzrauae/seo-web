@@ -1,0 +1,420 @@
+{
+  "mode": "built-in image_gen",
+  "style": "realistic editorial photography",
+  "assets": [
+    {
+      "slug": "static-vs-dynamic-website",
+      "files": [
+        "assets/img/blog/static-vs-dynamic-website-featured.webp",
+        "assets/img/blog/static-vs-dynamic-website-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, subject inside central 80 percent, enough visual context for a blog hero. Natural lens perspective, focus on physical subjects.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: a realistic editorial photo comparing simple and content-managed websites. On a genuine design studio desk, two actual open laptops side by side at believable angles: left shows a simple clean business homepage, right shows a professional content-management dashboard with neatly aligned cards and small abstract charts. Shot from slightly above three-quarter front view, tidy warm wood desk, charcoal laptop bodies, natural daylight, no people needed. Both screens and laptop bases fully visible with generous framing."
+    },
+    {
+      "slug": "website-cost-sri-lanka",
+      "files": [
+        "assets/img/blog/website-cost-sri-lanka-featured.webp",
+        "assets/img/blog/website-cost-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, subject inside central 80 percent, enough visual context for a blog hero. Natural lens perspective, focus on physical subjects.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: realistic editorial photo about planning a website budget in Sri Lanka. Close three-quarter overhead view of a real warm wooden desk with an open laptop displaying a generic professional business website, an ordinary physical calculator, a notebook with indistinct handwritten budget notes and a pen. A Sri Lankan business owner's natural hands review the notes. Soft daylight, restrained charcoal and beige palette, small brass desk accessory. Include entire laptop and clear calculator without prominent readable text."
+    },
+    {
+      "slug": "best-web-design-company-sri-lanka",
+      "files": [
+        "assets/img/blog/best-web-design-company-sri-lanka-featured.webp",
+        "assets/img/blog/best-web-design-company-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, subject inside central 80 percent, enough visual context for a blog hero. Natural lens perspective, focus on physical subjects.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: realistic candid editorial photo of a small Sri Lankan web design team evaluating a website for a business client. Three South Asian professionals, woman and two men in everyday smart casual clothes, naturally gathered around a real laptop on an airy Colombo studio desk. One person gestures toward a plausible clean website mockup on the screen, others paying thoughtful attention. Natural expressions, daylight, plants softly blurred in background, polished but authentic workplace photography, no handshaking or stiff posing."
+    },
+    {
+      "slug": "seo-friendly-website-design",
+      "files": [
+        "assets/img/blog/seo-friendly-website-design-featured.webp",
+        "assets/img/blog/seo-friendly-website-design-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary setting, understated charcoal devices, warm wood, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, key subject inside central 80 percent. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. Opaque image.\nPrimary request: editorial photo about testing a responsive website and search performance. Close real-world view of a modern charcoal laptop and smartphone on a tidy web developer desk, both screens showing the same plausible clean business website at desktop and mobile widths. Laptop screen also includes a small unobtrusive performance-check panel of simple graphs, no prominent readable text or perfect-score claims. A Sri Lankan designer's hand rests naturally on the trackpad. Soft morning daylight, warm desk and subtle brass pen, tactile lifelike materials."
+    },
+    {
+      "slug": "web-design-course-sri-lanka",
+      "files": [
+        "assets/img/blog/web-design-course-sri-lanka-featured.webp",
+        "assets/img/blog/web-design-course-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary setting, understated charcoal devices, warm wood, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, key subject inside central 80 percent. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. Opaque image.\nPrimary request: authentic editorial photo of a young adult Sri Lankan woman learning web design at a laptop in a bright modern study space. Three-quarter over-the-shoulder composition so a natural face profile and laptop with a plausible code editor beside a simple website preview are visible. She holds a pen and takes notes in a real notebook, carefully observed hands, casual modest everyday clothing. Warm natural window light, simple indoor greenery in background, candid engaged expression. No readable foreground text."
+    },
+    {
+      "slug": "google-maps-seo-sri-lanka",
+      "files": [
+        "assets/img/blog/google-maps-seo-sri-lanka-featured.webp",
+        "assets/img/blog/google-maps-seo-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph used as a blog featured image and a small thumbnail.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary setting, understated charcoal devices, warm wood, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed photograph, carefully composed but candid, key subject inside central 80 percent. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. Opaque image.\nPrimary request: realistic editorial photo of a Sri Lankan small business owner checking local maps on a smartphone outside her independent street-front shop in Colombo. Three-quarter close view: adult South Asian woman in natural smart casual clothing with phone in foreground at believable angle showing a generic map interface with streets and a red location pin, no branded logos or legible small street names. Authentic Sri Lankan urban shopfront softly out of focus behind, morning daylight, natural expression and correct hands. No large store sign text, no overlay pins floating in the air."
+    },
+    {
+      "slug": "seo-specialist-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-specialist-sri-lanka-featured.webp",
+        "assets/img/blog/seo-specialist-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a Sri Lankan male digital marketing specialist in his early thirties wearing a dark charcoal casual shirt, seated at a contemporary office desk studying a laptop analytics dashboard. Candid three-quarter profile, focused expression, left hand rests naturally beside a notebook while right hand uses trackpad. Window daylight, subtle tropical greenery softly out of focus outside. Laptop shows a restrained pale analytics UI with small line charts. Real everyday professional workspace."
+    },
+    {
+      "slug": "seo-specialist-guide-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-specialist-guide-sri-lanka-featured.webp",
+        "assets/img/blog/seo-specialist-guide-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a small Sri Lankan team of three, two women and a man in smart casual clothing, discussing search marketing strategy around a real wood meeting table. They review an open laptop and a few simple planning pages, natural engaged expressions and sensible gestures. Bright modest Colombo studio office, warm daylight, no staged thumbs-up. Wide candid editorial photo, visible laptop and grounded practical content-planning setting."
+    },
+    {
+      "slug": "seo-expert-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-expert-sri-lanka-featured.webp",
+        "assets/img/blog/seo-expert-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a Sri Lankan female SEO consultant in her thirties in an ivory blouse and dark blazer seated at her office desk, reviewing a realistic search ranking report on a laptop and a printed simple chart. Natural candid thoughtful expression, three-quarter side view, hands resting sensibly at notebook and trackpad. Comfortable modern tropical office with pale walls and wood desk, soft daylight. No visible brand names."
+    },
+    {
+      "slug": "what-is-seo",
+      "files": [
+        "assets/img/blog/what-is-seo-featured.webp",
+        "assets/img/blog/what-is-seo-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a close natural editorial photograph of a real laptop open on an uncluttered warm wood desk in a Sri Lankan office. Laptop browser displays an ordinary search results page with a search field and several subtle organic result rows, slightly out of focus at a realistic angle, no specific text needs to be read. Beside it a notebook, a simple ceramic coffee cup and a small brass pen. No people needed. Focus on physical keyboard, trackpad, screen edge and natural window light, tropical greenery softly blurred in background."
+    },
+    {
+      "slug": "what-does-seo-stand-for",
+      "files": [
+        "assets/img/blog/what-does-seo-stand-for-featured.webp",
+        "assets/img/blog/what-does-seo-stand-for-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: over-the-shoulder close editorial photograph of a Sri Lankan professional researching on a laptop in a sunny real office. Person wears a neutral linen shirt, one hand naturally using the trackpad, with an open notebook on the table. Laptop shows an unobtrusive ordinary web search engine results interface seen at angle, details indistinct. Natural textured wood and skin, physical desk and authentic daylight, no futuristic effects."
+    },
+    {
+      "slug": "how-to-become-seo-specialist",
+      "files": [
+        "assets/img/blog/how-to-become-seo-specialist-featured.webp",
+        "assets/img/blog/how-to-become-seo-specialist-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a young adult Sri Lankan woman learning search engine optimization at a real small desk in a bright home study, wearing a casual charcoal cotton blouse, focused on an open laptop with a neutral online learning page while writing a few notes in a notebook with a pen. Side-angle candid photography, natural facial expression and hands, simple books and a ceramic tea cup, soft tropical daylight through window. Professional aspirational career learning image."
+    },
+    {
+      "slug": "how-long-does-seo-take",
+      "files": [
+        "assets/img/blog/how-long-does-seo-take-featured.webp",
+        "assets/img/blog/how-long-does-seo-take-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a real natural professional wooden desk beside a window, with an open laptop showing a subdued organic traffic line chart gradually rising across several months. A small elegant analog desk clock and standing paper monthly calendar are prominent physical foreground objects, plus a closed charcoal notebook and brass pen. Calendar is seen obliquely, its dates indistinct and not the main focus. No people needed. Editorial business photography expressing time, patience, and SEO growth without exaggerated claims."
+    },
+    {
+      "slug": "ai-seo",
+      "files": [
+        "assets/img/blog/ai-seo-featured.webp",
+        "assets/img/blog/ai-seo-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: featured photograph for an SEO blog in Sri Lanka, wide landscape 1200:630 aspect ratio.\nStyle: genuine professional editorial photography, documentary realism, premium camera, natural skin and materials, candid unposed moment, soft natural office daylight, warm neutral charcoal and wood colors, one restrained brass desk accent. This must look like a real camera photograph, not illustration or 3D rendering.\nComposition: landscape full bleed, eye-level or shoulder-level candid composition, key subjects comfortably within central 80 percent, clean natural office, gentle background depth of field.\nConstraints: no overlaid text, no watermarks, no logos. Laptop screen interfaces are ordinary, unobtrusive, angled away from camera with indistinct fine details, never giant readable gibberish. Accurate human anatomy, natural hands with correct fingers, believable device geometry. No impossible holograms, floating objects or decorative UI overlays.\nSubject: a Sri Lankan digital marketing professional woman in her late twenties working thoughtfully at a laptop in a modern Colombo office. Over-shoulder three-quarter view reveals a real laptop screen with a simple AI chat assistant interface beside a normal web search page; details small and out of focus. Person is taking notes on paper next to the laptop, no holograms or robot motifs. Soft daylight, charcoal clothing, honest wood desk, small brass lamp and green tropical plant. Premium natural editorial photograph about using AI in search work."
+    },
+    {
+      "slug": "seo-consultant-sri-lanka-guide",
+      "files": [
+        "assets/img/blog/seo-consultant-sri-lanka-guide-featured.webp",
+        "assets/img/blog/seo-consultant-sri-lanka-guide-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial featured photograph for a Sri Lankan SEO advice article and blog thumbnail.\nStyle/medium: authentic professional DSLR photography, natural window daylight, warm neutral colour grade, charcoal laptops, warm wooden surfaces and restrained practical brass details, real skin and material texture, believable anatomy and hands, natural Sri Lankan contemporary work environment.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed carefully observed candid photo, subjects comfortably within central 80 percent, no graphic framing. Realistic lens perspective and gentle background depth of field.\nConstraints: strict realistic camera photograph, not illustration or CGI. No floating graphics, logos, watermark, overlaid titles or graphic effects. Device interfaces should look real and unobtrusive, with small indistinct text at a natural angle, never giant legible gibberish or price promises. No identifiable real public figure.\nSubject: candid consultation meeting in a light-filled modest Colombo office. An experienced Sri Lankan male SEO consultant in his forties and a Sri Lankan woman business owner discuss a printed evaluation checklist beside an open laptop showing a plausible analytics report. Natural attentive expressions, one person points toward the report with a pen while the other listens, no staged handshake. Clear professional advisory setting, relaxed smart casual clothing, honest everyday moment."
+    },
+    {
+      "slug": "seo-courses-in-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-courses-in-sri-lanka-featured.webp",
+        "assets/img/blog/seo-courses-in-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial featured photograph for a Sri Lankan SEO advice article and blog thumbnail.\nStyle/medium: authentic professional DSLR photography, natural window daylight, warm neutral colour grade, charcoal laptops, warm wooden surfaces and restrained practical brass details, real skin and material texture, believable anatomy and hands, natural Sri Lankan contemporary work environment.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed carefully observed candid photo, subjects comfortably within central 80 percent, no graphic framing. Realistic lens perspective and gentle background depth of field.\nConstraints: strict realistic camera photograph, not illustration or CGI. No floating graphics, logos, watermark, overlaid titles or graphic effects. Device interfaces should look real and unobtrusive, with small indistinct text at a natural angle, never giant legible gibberish or price promises. No identifiable real public figure.\nSubject: a practical digital marketing workshop in a bright Sri Lankan classroom studio. One adult Sri Lankan female instructor guides two adult Sri Lankan students at a wooden desk with two open laptops showing plausible small search analytics interfaces, notebooks and pens. Warm natural daylight, candid engaged expressions and real interaction, teacher calmly explaining one screen, no theatrical pointing, comfortably framed people and laptop screens, not a graduation scene."
+    },
+    {
+      "slug": "seo-agency-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-agency-sri-lanka-featured.webp",
+        "assets/img/blog/seo-agency-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial featured photograph for a Sri Lankan SEO advice article and blog thumbnail.\nStyle/medium: authentic professional DSLR photography, natural window daylight, warm neutral colour grade, charcoal laptops, warm wooden surfaces and restrained practical brass details, real skin and material texture, believable anatomy and hands, natural Sri Lankan contemporary work environment.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed carefully observed candid photo, subjects comfortably within central 80 percent, no graphic framing. Realistic lens perspective and gentle background depth of field.\nConstraints: strict realistic camera photograph, not illustration or CGI. No floating graphics, logos, watermark, overlaid titles or graphic effects. Device interfaces should look real and unobtrusive, with small indistinct text at a natural angle, never giant legible gibberish or price promises. No identifiable real public figure.\nSubject: a candid planning session in a contemporary small Colombo digital marketing agency. Four Sri Lankan professionals, women and men, sit naturally around a wooden meeting table with a large laptop, two paper reports and a notebook, discussing a plausible marketing analytics report. Real collaborative moment, varied relaxed poses, modest smart casual clothing, tropical greenery and plain daylight office in soft background, composition showing team expertise without staged smiles or gestures."
+    },
+    {
+      "slug": "seo-price-in-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-price-in-sri-lanka-featured.webp",
+        "assets/img/blog/seo-price-in-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial featured photograph for a Sri Lankan SEO advice article and blog thumbnail.\nStyle/medium: authentic professional DSLR photography, natural window daylight, warm neutral colour grade, charcoal laptops, warm wooden surfaces and restrained practical brass details, real skin and material texture, believable anatomy and hands, natural Sri Lankan contemporary work environment.\nComposition/framing: wide landscape 1200:630 aspect ratio, full-bleed carefully observed candid photo, subjects comfortably within central 80 percent, no graphic framing. Realistic lens perspective and gentle background depth of field.\nConstraints: strict realistic camera photograph, not illustration or CGI. No floating graphics, logos, watermark, overlaid titles or graphic effects. Device interfaces should look real and unobtrusive, with small indistinct text at a natural angle, never giant legible gibberish or price promises. No identifiable real public figure.\nSubject: close editorial photograph about evaluating SEO campaign costs. A Sri Lankan business professional in charcoal smart casual shirt reviews a printed marketing proposal at a warm wood desk, with a calculator, notebook, pen and open laptop showing a plausible organic search report. Frame from three-quarter shoulder level with natural hands visible, face only a soft partial profile; clear budget planning concept, soft window daylight, no money stacks, no currency signs or prominent readable price amounts."
+    },
+    {
+      "slug": "technical-seo-sri-lanka",
+      "files": [
+        "assets/img/blog/technical-seo-sri-lanka-featured.webp",
+        "assets/img/blog/technical-seo-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: a Sri Lankan male technical SEO analyst at a wood desk, reviewing crawler diagnostics on a real charcoal laptop and code and simple performance panels on a separate external monitor. Tidy modest Colombo office with soft morning daylight and a small green plant, candid three-quarter view, one hand on laptop trackpad, another naturally beside a notebook, no heroic posing."
+    },
+    {
+      "slug": "local-seo-sri-lanka",
+      "files": [
+        "assets/img/blog/local-seo-sri-lanka-featured.webp",
+        "assets/img/blog/local-seo-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: a Sri Lankan woman who owns a small homeware shop reviewing her online local business listing on a real laptop at a wooden counter inside the shop. A plausible small map and listing card on laptop, with shop products and shelves softly blurred in the background, natural light from store window. Calm engaged expression, hands resting naturally at counter and trackpad, authentic everyday business scene, no signage lettering."
+    },
+    {
+      "slug": "ecommerce-seo-sri-lanka",
+      "files": [
+        "assets/img/blog/ecommerce-seo-sri-lanka-featured.webp",
+        "assets/img/blog/ecommerce-seo-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: a Sri Lankan small online shop owner, an adult South Asian woman in a dark casual shirt, at a practical packing desk reviewing a real laptop product grid. Two small kraft cardboard orders and a few handmade homeware products beside her, notebook and pen, soft natural daylight, authentic home business studio. Screen has small thumbnail product images but no visible brand. Natural candid pose, one hand holding a small ceramic item and the other relaxed by laptop."
+    },
+    {
+      "slug": "on-page-seo-sri-lanka",
+      "files": [
+        "assets/img/blog/on-page-seo-sri-lanka-featured.webp",
+        "assets/img/blog/on-page-seo-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: Sri Lankan female content editor at her bright wood desk, naturally editing a website page on a real charcoal laptop. Laptop screen shows a plausible business website article layout with a small ordinary page editing sidebar. On desk are paper content outline notes, notebook and a brass pen, gentle daylight and soft greenery outside. Three-quarter over-the-shoulder view shows her natural face profile and sensible hands at trackpad and notes. Focus on practical page content editing, no visible large text or exaggerated charts."
+    },
+    {
+      "slug": "seo-audit-sri-lanka",
+      "files": [
+        "assets/img/blog/seo-audit-sri-lanka-featured.webp",
+        "assets/img/blog/seo-audit-sri-lanka-featured-600.webp"
+      ],
+      "dimensions": [
+        [
+          1200,
+          630
+        ],
+        [
+          600,
+          315
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: a Sri Lankan male SEO analyst systematically checking a printed audit checklist beside a real laptop showing small restrained diagnostic charts. Eye-level three-quarter candid photo of a tidy real Colombo office desk, charcoal shirt, warm wood, daylight, brass paperclip tray, pale wall and small plant. He holds a pen naturally over the checklist while looking attentively at laptop, accurate anatomy, no staged pose. Practical careful review work; paper text indistinct and not a giant graphic."
+    }
+  ]
+}
