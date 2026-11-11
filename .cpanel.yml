@@ -1,20 +1,21 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=$HOME/public_html/ && /usr/bin/rsync -rvc
-        --exclude='.git'
-        --exclude='.claude/'
-        --exclude='.vscode/'
-        --exclude='.cpanel.yml'
-        --exclude='.gitignore'
+    # rsync is not installed on this server, so copy with tar (always available).
+    - export DEPLOYPATH=$HOME/public_html/ && tar
+        --exclude='./.git'
+        --exclude='./.claude'
+        --exclude='./.vscode'
+        --exclude='./.cpanel.yml'
+        --exclude='./.gitignore'
         --exclude='*.ps1'
         --exclude='*.backup'
-        --exclude='tools/'
-        --exclude='header-component.html'
-        --exclude='gittt.zip'
-        --exclude='seo.zip'
-        --exclude='LOCAL-SERVER-SETUP.txt'
-        --exclude='URL-EXTENSION-REMOVAL-SUMMARY.txt'
-        --exclude='SECURITY.md'
-        --exclude='SITEMAP-README.md'
-        ./ $DEPLOYPATH
+        --exclude='./tools'
+        --exclude='./header-component.html'
+        --exclude='./gittt.zip'
+        --exclude='./seo.zip'
+        --exclude='./LOCAL-SERVER-SETUP.txt'
+        --exclude='./URL-EXTENSION-REMOVAL-SUMMARY.txt'
+        --exclude='./SECURITY.md'
+        --exclude='./SITEMAP-README.md'
+        -cf - . | tar --no-same-owner -xf - -C $DEPLOYPATH
