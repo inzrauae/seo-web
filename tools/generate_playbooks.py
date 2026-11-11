@@ -21,6 +21,8 @@ shell = open(os.path.join(ROOT, "seo-audit-sri-lanka.html"), encoding="utf-8-sig
 HEAD_START = shell[: shell.index("<title>")]
 HEADER = shell[shell.index("<body>") : shell.index('<section class="page-hero">')]
 FOOTER = shell[shell.index('<footer class="site-footer">') :]
+if "<main" in HEADER:  # the shell opens <main> after its header; close it before the footer
+    FOOTER = "</main>\n" + FOOTER
 # The shell footer highlights nothing page-specific, so it can be reused as is.
 
 e = lambda t: escape(t, quote=True)

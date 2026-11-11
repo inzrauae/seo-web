@@ -148,35 +148,10 @@
 }
     </script>
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
-    <style>
-      .post-meta { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 18px; margin-top: 18px; font-size: 14px; color: rgba(255,255,255,.7); }
-      .post-meta i { color: var(--accent); margin-right: 6px; }
-      .post-cover { margin: 0 0 28px; }
-      .post-cover img, .post-fig img { width: 100%; height: auto; aspect-ratio: auto; object-fit: contain; display: block; border: 1px solid var(--border); border-radius: var(--radius); margin: 0; }
-      .post-fig { margin: 30px 0; }
-      .post-fig figcaption { font-size: 13.5px; color: var(--ink-faint); text-align: center; margin-top: 10px; }
-      .takeaways { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: var(--radius); padding: 22px 26px; margin: 0 0 28px; }
-      .takeaways h2 { font-size: 18px !important; margin: 0 0 12px !important; }
-      .takeaways ul { margin: 0; }
-      .toc { background: var(--bg-alt); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px 26px; margin: 0 0 30px; }
-      .toc strong { display: block; margin-bottom: 8px; font-size: 15px; }
-      .toc ol { margin: 0; }
-      .toc li { margin-bottom: 4px; font-size: 15px; }
-      .prose .compare-table { margin: 22px 0 26px; font-size: 14.5px; }
-      .prose .compare-table td:first-child { white-space: normal; }
-      .table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
-      .post-cta { background: var(--gradient-dark); border: 1px solid var(--accent); border-radius: var(--radius); padding: 28px; margin: 36px 0 10px; text-align: center; box-shadow: var(--shadow-gold); }
-      .post-cta h2 { margin: 0 0 10px !important; font-size: 22px !important; }
-      .post-cta p { color: var(--ink-soft); margin: 0 auto 18px; max-width: 560px; }
-      .post-cta .btn-row { justify-content: center; }
-      .post-cta .btn { text-decoration: none; }
-      .author-box { display: flex; gap: 16px; align-items: center; margin-top: 34px; padding: 20px 22px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
-      .author-box img { width: 64px !important; height: 64px; border-radius: 50%; object-fit: cover; margin: 0 !important; box-shadow: none !important; flex: 0 0 64px; }
-      .author-box p { margin: 0; font-size: 14.5px; }
-      @media (max-width: 600px) { .page-hero h1 { font-size: 28px; } .compare-table { font-size: 13px; } .compare-table th, .compare-table td { padding: 12px; } }
-    </style>
+    <link rel="stylesheet" href="assets/css/website-guide.css">
 </head>
-<body>
+<body class="website-guide">
+<a class="skip-link" href="#main-content">Skip to content</a>
 <!-- Reusable Header Component (static HTML version of provided React idea) -->
 <header id="site-header" class="site-header" aria-label="Primary Header">
   <nav class="nav-wrap" aria-label="Primary Navigation">
@@ -186,13 +161,13 @@
         <img fetchpriority="high" class="brand-logo" src="assets/img/seo-logo.png" alt="SEO Consultant Sri Lanka - Buddhika S Weerasekara" width="1568" height="672">
       </a>
       <!-- Desktop Menu -->
-      <ul class="menu" role="menubar">
-        <li role="none"><a role="menuitem" href="/">Home</a></li>
-        <li role="none"><a role="menuitem" href="about">About Us</a></li>
-        <li role="none"><a role="menuitem" href="services">Services</a></li>
-        <li role="none"><a role="menuitem" href="faq">FAQ</a></li>
-        <li role="none"><a role="menuitem" href="blog">Blog</a></li>
-        <li role="none"><a role="menuitem" href="contact">Contact</a></li>
+      <ul class="menu">
+        <li><a href="/">Home</a></li>
+        <li><a href="about">About Us</a></li>
+        <li><a href="services">Services</a></li>
+        <li><a href="faq">FAQ</a></li>
+        <li><a href="blog" aria-current="page">Blog</a></li>
+        <li><a href="contact">Contact</a></li>
       </ul>
       <!-- Desktop Phone CTA -->
       <a class="phone-cta" href="tel:+94778064714" aria-label="Call +94 77 806 4714">
@@ -200,12 +175,12 @@
         <span>+94 77 806 4714</span>
       </a>
       <!-- Mobile Toggle -->
-      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <button class="nav-toggle" aria-controls="mobile-navigation" aria-label="Open navigation" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
     </div>
     <!-- Mobile Menu -->
-    <div class="mobile-menu" hidden>
+    <div class="mobile-menu" id="mobile-navigation" hidden>
       <a href="/">Home</a>
       <a href="about">About Us</a>
       <a href="services">Services</a>
@@ -218,138 +193,211 @@
       </a>
     </div>
   </nav>
+  <div class="reading-progress" aria-hidden="true"></div>
 </header>
-
-<section class="page-hero">
+<main id="main-content" tabindex="-1">
+<section class="guide-hero" aria-labelledby="guide-title">
     <div class="container">
-        <span class="eyebrow">Website Basics</span>
-        <h1>Static vs Dynamic Website: Which Is Right for Your Business?</h1>
-        <p>Before you get a website quote, you need to know one thing: should your site be static or dynamic? Here is the difference in plain English, and how to choose.</p>
-        <div class="post-meta">
-            <span><i class="fas fa-user"></i>By <a href="about" style="color:inherit">Buddhika S Weerasekara</a></span>
-            <span><i class="fas fa-calendar-alt"></i><time datetime="2026-11-10">10 November 2026</time></span>
-            <span><i class="fas fa-clock"></i>5 min read</span>
+        <nav class="guide-breadcrumb" aria-label="Breadcrumb">
+            <a href="/">Home</a><span aria-hidden="true">/</span><a href="blog">The journal</a><span aria-hidden="true">/</span><span>Static vs dynamic website</span>
+        </nav>
+        <div class="guide-hero-grid">
+            <div class="guide-hero-copy">
+                <p class="guide-kicker">The business owner's guide</p>
+                <h1 id="guide-title">Static vs dynamic<br><span>website.</span> Find your<br>right fit.</h1>
+                <p class="hero-description">A simple business website or a store you can manage yourself? Understand the differences in cost, content and control before you invest.</p>
+                <div class="guide-actions">
+                    <a class="guide-button" href="#comparison">Compare the options <span aria-hidden="true">&darr;</span></a>
+                    <a class="guide-text-link" href="#choose">Help me choose <span aria-hidden="true">&nearr;</span></a>
+                </div>
+                <div class="hero-byline">
+                    <img src="assets/img/seo-expert-portrait.webp" alt="" width="34" height="34" decoding="async">
+                    <div><a href="about">Buddhika S Weerasekara</a><time datetime="2026-11-10">10 November 2026</time><span class="meta-dot" aria-hidden="true">&middot;</span><span>5 min read</span></div>
+                </div>
+            </div>
+            <figure class="hero-photograph">
+                <div class="hero-photo-frame">
+                    <img src="assets/img/blog/static-vs-dynamic-website-featured.webp" srcset="assets/img/blog/static-vs-dynamic-website-featured-600.webp 600w, assets/img/blog/static-vs-dynamic-website-featured.webp 1200w" sizes="(max-width: 640px) calc(100vw - 44px), (max-width: 1248px) 48vw, 575px" alt="Two laptops on a sunlit desk, showing a business website and a content management dashboard" width="1200" height="630" fetchpriority="high" decoding="async">
+                    <div class="hero-photo-label" aria-hidden="true"><span><b>Static</b>Simple. Fast. Focused.</span><span><b>Dynamic</b>Flexible. In your control.</span></div>
+                </div>
+                <figcaption><span>One business. The right digital foundation.</span><span>A practical comparison &nearr;</span></figcaption>
+            </figure>
         </div>
-        <div class="breadcrumb"><a href="/">Home</a> / <a href="blog">Blog</a> / Static vs Dynamic Website</div>
+        <div class="guide-at-a-glance" aria-label="What this guide covers">
+            <span><b>01 /</b><strong>Understand your options</strong></span>
+            <span><b>02 /</b><strong>Compare features &amp; cost</strong></span>
+            <span><b>03 /</b><strong>Choose with confidence</strong></span>
+        </div>
     </div>
 </section>
 
-<article class="section">
-    <div class="container">
-        <div class="prose">
-            <figure class="post-cover">
-                <img src="assets/img/blog/static-vs-dynamic-website-featured.webp" srcset="assets/img/blog/static-vs-dynamic-website-featured-600.webp 600w, assets/img/blog/static-vs-dynamic-website-featured.webp 1200w" sizes="(max-width: 808px) calc(100vw - 48px), 760px" alt="Two laptops comparing a simple business website with a dynamic content management dashboard" width="1200" height="630" fetchpriority="high" decoding="async">
-            </figure>
-
-            <div class="takeaways">
-                <h2>Key takeaways</h2>
-                <ul>
-                    <li>A <strong>static website</strong> is a set of fixed pages. It is very fast, very secure and the most affordable option at <strong>LKR 10,000</strong>.</li>
-                    <li>A <strong>dynamic website</strong> loads content from a database and gives you an <strong>admin dashboard</strong> to manage products and content yourself, for <strong>LKR 25,000</strong>.</li>
-                    <li>Choose static if your content rarely changes. Choose dynamic if you sell products or update content every week.</li>
-                    <li>Both can rank well on Google. SEO depends on how the site is built, not on which type it is.</li>
-                </ul>
-            </div>
-
-            <nav class="toc" aria-label="Table of contents">
-                <strong>In this guide</strong>
+<div class="guide-body">
+    <div class="container guide-layout">
+        <aside class="guide-sidebar" aria-label="Guide navigation and advice">
+            <nav class="guide-toc" aria-labelledby="contents-title">
+                <h2 id="contents-title">In this guide</h2>
                 <ol>
-                    <li><a href="#static">What is a static website?</a></li>
-                    <li><a href="#dynamic">What is a dynamic website?</a></li>
-                    <li><a href="#comparison">Static vs dynamic: side-by-side comparison</a></li>
-                    <li><a href="#seo">Which is better for SEO?</a></li>
-                    <li><a href="#choose">How to choose: 4 quick questions</a></li>
-                    <li><a href="#examples">Real examples</a></li>
-                    <li><a href="#faq">FAQs</a></li>
+                    <li><a href="#static"><span>01</span>Static websites</a></li>
+                    <li><a href="#dynamic"><span>02</span>Dynamic websites</a></li>
+                    <li><a href="#comparison"><span>03</span>The comparison</a></li>
+                    <li><a href="#seo"><span>04</span>What about SEO?</a></li>
+                    <li><a href="#choose"><span>05</span>Find your right fit</a></li>
+                    <li><a href="#examples"><span>06</span>Real-world examples</a></li>
+                    <li><a href="#faq"><span>07</span>Common questions</a></li>
                 </ol>
             </nav>
+            <div class="sidebar-help">
+                <span class="help-icon" aria-hidden="true"><svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3"><path d="M21 11.5a8.3 8.3 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.3 8.3 0 0 1-3.8-.9L3 21l1.9-5.7a8.3 8.3 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.3 8.3 0 0 1 3.8-.9h.5a8.5 8.5 0 0 1 8 8z"/><path d="M8 11h8M8 14h5"/></svg></span>
+                <h3>A little guidance<br>goes a long way.</h3>
+                <p>Tell us what you need. We will help you choose a website that suits your business.</p>
+                <a href="https://wa.me/94778064714?text=Hi%2C%20can%20you%20help%20me%20choose%20a%20website%3F" target="_blank" rel="noopener noreferrer">Let's talk <span aria-hidden="true">&rarr;</span></a>
+            </div>
+        </aside>
 
-            <p>When businesses ask us for a website quote, the first thing we work out together is whether they need a <strong>static</strong> or a <strong>dynamic</strong> website. The choice affects the price, how fast the site loads, how secure it is and, most importantly, who updates it. Here is a plain-English explanation to help you choose.</p>
-
-            <h2 id="static">What is a static website?</h2>
-            <p>A static website is made of fixed files, mainly HTML, CSS and JavaScript. Every visitor sees exactly the same page, and the server simply sends those ready-made files. There is no database and no login area.</p>
-            <p><strong>Good for:</strong> service businesses, clinics, salons, consultants, construction companies, event pages and portfolios. These are businesses whose core information (services, contact details, gallery) changes only a few times a year.</p>
-            <ul>
-                <li><strong>Very fast</strong>, because pages are ready to send immediately.</li>
-                <li><strong>Very secure</strong>, because there is no database or admin login to attack.</li>
-                <li><strong>Lowest cost</strong> to build and host.</li>
-                <li><strong>Updates go through your developer</strong>, which is fine if changes are rare.</li>
-            </ul>
-            <p>The website you are reading now is a fast static site, and so is the <a href="web-design-sri-lanka">web design Sri Lanka</a> page.</p>
-
-            <h2 id="dynamic">What is a dynamic website?</h2>
-            <p>A dynamic website builds each page from a database at the moment someone visits. Our dynamic sites use Laravel and PHP. You get an <strong>admin dashboard</strong> where you can log in to add, edit and delete products, prices, photos or posts without touching any code.</p>
-            <p><strong>Good for:</strong> online shops, product catalogues, real estate listings, and any business that adds or changes content every week.</p>
-            <ul>
-                <li><strong>You manage content yourself</strong> through the dashboard.</li>
-                <li><strong>Product and inventory management</strong>, categories and order handling.</li>
-                <li><strong>Room to grow</strong>: customer accounts, bookings and payments can be added later.</li>
-                <li><strong>Needs more care</strong>: secure logins, updates and backups.</li>
-            </ul>
-
-<figure class="post-fig">
-                <img src="assets/img/blog/static-vs-dynamic-website-infographic.webp" alt="Comparison table of static vs dynamic websites covering how they are built, updates, speed, security, best use and price" width="1200" height="640" loading="lazy" decoding="async">
-                <figcaption>Static vs dynamic websites compared side by side.</figcaption>
-            </figure>
-
-            <h2 id="comparison">Static vs dynamic: side-by-side comparison</h2>
-            <div class="table-wrap">
-            <table class="compare-table">
-                <thead><tr><th></th><th>Static website</th><th>Dynamic website</th></tr></thead>
-                <tbody>
-                    <tr><td>Built with</td><td>HTML, CSS, JavaScript</td><td>Laravel, PHP + database</td></tr>
-                    <tr><td>Who updates it</td><td>Your developer</td><td>You, through an admin dashboard</td></tr>
-                    <tr><td>Speed</td><td>Extremely fast</td><td>Fast when properly optimised</td></tr>
-                    <tr><td>Security</td><td>Very little to attack</td><td>Needs secure login and updates</td></tr>
-                    <tr><td>Best for</td><td>Services, clinics, portfolios</td><td>Shops, catalogues, frequent updates</td></tr>
-                    <tr><td>Price</td><td>LKR 10,000</td><td>LKR 25,000</td></tr>
-                </tbody>
-            </table>
+        <article class="guide-article" aria-label="Static vs dynamic website guide">
+            <div class="article-intro">
+                <span class="guide-kicker">Start with the essentials</span>
+                <h2>Two ways to build.<br>One decision that matters.</h2>
+                <p>The right choice comes down to what your website needs to do and who will update it. Here is the short answer before we get into the details.</p>
+                <div class="quick-answer">
+                    <div class="quick-option">
+                        <div class="option-label">For a clear online presence <span aria-hidden="true">&nearr;</span></div>
+                        <h3>Keep it static.</h3>
+                        <p>Fixed pages, fast loading and a simple way for customers to find and contact you.</p>
+                        <div class="option-price"><small>LKR</small> 10,000</div>
+                    </div>
+                    <div class="quick-option">
+                        <div class="option-label">For content that keeps moving <span aria-hidden="true">&nearr;</span></div>
+                        <h3>Make it dynamic.</h3>
+                        <p>Manage your products, prices and content yourself with an admin dashboard.</p>
+                        <div class="option-price"><small>LKR</small> 25,000</div>
+                    </div>
+                </div>
+                <p class="quick-note">Our packages: a 5-page static site or a dynamic e-commerce site with an admin dashboard. <a href="web-design-sri-lanka#pricing">See package details</a>.</p>
             </div>
 
-            <h2 id="seo">Which is better for SEO?</h2>
-            <p>Neither type is automatically better for SEO. Google ranks pages on relevance, quality and experience, not on whether a database is involved. What matters is how the site is built:</p>
-            <ul>
-                <li><strong>Speed:</strong> static sites have an advantage, but a well-built dynamic site is also fast. See our <a href="technical-seo-sri-lanka">technical SEO guide</a> for what slows sites down.</li>
-                <li><strong>Content:</strong> dynamic sites make it easier to publish lots of product or category pages, each of which can rank. That is a big advantage for <a href="ecommerce-seo-sri-lanka">e-commerce SEO</a>.</li>
-                <li><strong>On-page basics:</strong> titles, headings, alt text and internal links matter in both. Our <a href="on-page-seo-sri-lanka">on-page SEO guide</a> covers them.</li>
-            </ul>
-            <p>Whichever you choose, use our <a href="seo-friendly-website-design">SEO-friendly website design checklist</a> before launch.</p>
+            <section class="article-section" id="static" aria-labelledby="static-title">
+                <span class="section-number">01 / THE SIMPLE FOUNDATION</span>
+                <h2 id="static-title">What is a static website?</h2>
+                <p>A static website serves ready-made pages built with HTML, CSS and JavaScript. Its core content is stored in files rather than pulled from a database. When you need a change, your developer updates those files.</p>
+                <p>Think of it as a well-designed digital brochure: your services, your story and a clear way to get in touch.</p>
+                <ul class="feature-list">
+                    <li><strong>Fast by design</strong>Ready-made pages can load quickly with very little server work.</li>
+                    <li><strong>Less to maintain</strong>No built-in database or admin login to keep updated.</li>
+                    <li><strong>A smaller investment</strong>A straightforward way to get your business online.</li>
+                    <li><strong>Developer-managed updates</strong>A good fit when your core content changes occasionally.</li>
+                </ul>
+                <p class="best-for"><strong>Best for:</strong> consultants, clinics, salons, construction companies and portfolios.</p>
+                <p>This website is a static site, including our <a href="web-design-sri-lanka">web design Sri Lanka</a> page.</p>
+            </section>
 
-            <h2 id="choose">How to choose: 4 quick questions</h2>
-            <ol>
-                <li><strong>Do you sell products online?</strong> Yes means dynamic.</li>
-                <li><strong>Will you change content more than once a month?</strong> Yes means dynamic.</li>
-                <li><strong>Do you want to make changes yourself, without a developer?</strong> Yes means dynamic.</li>
-                <li><strong>Is your main goal enquiries, calls and WhatsApp messages?</strong> Static is usually enough.</li>
-            </ol>
-            <p>Many businesses start with a static site and move to dynamic as they grow. When you rebuild, the important thing is to keep your URLs and rankings safe, something we covered in our <a href="website-migration-seo-case-study">website migration case study</a>.</p>
+            <section class="article-section" id="dynamic" aria-labelledby="dynamic-title">
+                <span class="section-number">02 / MORE CONTROL, MORE POSSIBILITIES</span>
+                <h2 id="dynamic-title">What is a dynamic website?</h2>
+                <p>A dynamic website uses application code and a database to generate content. Our dynamic sites use Laravel and PHP, with an <strong>admin dashboard</strong> where you can add products, change prices and publish content without editing code.</p>
+                <p>It is a practical choice when your website is part of your day-to-day operations, rather than somewhere customers simply read about you.</p>
+                <ul class="feature-list">
+                    <li><strong>Content in your hands</strong>Add and edit pages or products through your dashboard.</li>
+                    <li><strong>Built for selling</strong>Manage products, categories, stock and orders.</li>
+                    <li><strong>Space to grow</strong>Customer accounts, bookings and payments can be added as needed.</li>
+                    <li><strong>Ongoing care</strong>Plan for secure logins, software updates and backups.</li>
+                </ul>
+                <p class="best-for"><strong>Best for:</strong> online shops, product catalogues, property listings and frequently updated content.</p>
+                <figure class="editorial-photo">
+                    <img src="assets/img/blog/best-web-design-company-sri-lanka-featured.webp" srcset="assets/img/blog/best-web-design-company-sri-lanka-featured-600.webp 600w, assets/img/blog/best-web-design-company-sri-lanka-featured.webp 1200w" sizes="(max-width: 640px) calc(100vw - 44px), (max-width: 899px) calc(100vw - 48px), 906px" alt="A team reviewing a website together on a laptop in a sunlit office" width="1200" height="630" loading="lazy" decoding="async">
+                    <figcaption>Start with how your team will use the website, then choose the technology.</figcaption>
+                </figure>
+            </section>
 
-            <h2 id="examples">Real examples</h2>
-            <p>From our <a href="web-design-sri-lanka#portfolio">portfolio</a>: a construction company and an aesthetic clinic needed fast, trustworthy service websites with strong enquiry forms, which suits static sites well. A streetwear label and an IT parts shop needed product catalogues they could update themselves, which suits dynamic sites. For full pricing details, see our <a href="website-cost-sri-lanka">website cost in Sri Lanka guide</a>.</p>
+            <section class="article-section" id="comparison" aria-labelledby="comparison-title">
+                <span class="section-number">03 / SIDE BY SIDE</span>
+                <h2 id="comparison-title">The differences, at a glance.</h2>
+                <p>Both can look professional. The real difference is what happens behind the scenes.</p>
+                <div class="comparison-wrap" role="region" aria-label="Static and dynamic website comparison; scroll horizontally on smaller screens" tabindex="0">
+                    <table class="comparison-table">
+                        <caption>Comparison of our static and dynamic website packages</caption>
+                        <thead><tr><th scope="col">What matters</th><th scope="col">Static website</th><th scope="col">Dynamic website</th></tr></thead>
+                        <tbody>
+                            <tr><th scope="row">Built with</th><td>HTML, CSS &amp; JavaScript</td><td>Laravel, PHP &amp; a database</td></tr>
+                            <tr><th scope="row">Content updates</th><td>Your developer makes changes</td><td>You use an admin dashboard</td></tr>
+                            <tr><th scope="row">Speed</th><td>Fast, ready-made pages</td><td>Fast with proper optimisation</td></tr>
+                            <tr><th scope="row">Maintenance</th><td>Fewer moving parts</td><td>Secure logins, updates &amp; backups</td></tr>
+                            <tr><th scope="row">Ideal use</th><td>Services, clinics &amp; portfolios</td><td>Shops, catalogues &amp; regular updates</td></tr>
+                            <tr class="price-row"><th scope="row">Our package price</th><td>LKR 10,000</td><td>LKR 25,000</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p class="comparison-hint">Comparing on a phone? Scroll the table sideways to see both options.</p>
+            </section>
 
-            <div class="post-cta">
-                <h2>Not sure which one you need?</h2>
-                <p>Tell us about your business and we will recommend static or dynamic, with a fixed price.</p>
-                <div class="btn-row">
-                    <a class="btn btn-gold" href="web-design-sri-lanka#pricing">See website packages</a>
-                    <a class="btn btn-outline" href="https://wa.me/94778064714?text=Hi%2C%20should%20I%20get%20a%20static%20or%20dynamic%20website%3F" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i> WhatsApp us</a>
+            <section class="article-section" id="seo" aria-labelledby="seo-title">
+                <span class="section-number">04 / BUILT TO BE FOUND</span>
+                <h2 id="seo-title">Which is better for SEO?</h2>
+                <div class="seo-note"><p><strong>Both can rank well.</strong> Your content, page experience and technical setup matter more than whether your site uses a database.</p></div>
+                <ul class="simple-list">
+                    <li><strong>Speed:</strong> static sites have a head start, but a well-built dynamic site can also be fast. Our <a href="technical-seo-sri-lanka">technical SEO guide</a> explains what can slow a site down.</li>
+                    <li><strong>Content:</strong> a dynamic site makes frequent product and category updates easier, which is useful for <a href="ecommerce-seo-sri-lanka">e-commerce SEO</a>.</li>
+                    <li><strong>The essentials:</strong> useful content, descriptive titles, clear headings and internal links matter for both. See our <a href="on-page-seo-sri-lanka">on-page SEO guide</a>.</li>
+                </ul>
+                <p>Whichever you choose, work through our <a href="seo-friendly-website-design">SEO-friendly website design checklist</a> before launch.</p>
+            </section>
+
+            <section class="article-section" id="choose" aria-labelledby="choose-title">
+                <span class="section-number">05 / YOUR NEXT STEP</span>
+                <h2 id="choose-title">Four questions. A clearer choice.</h2>
+                <p>Use your everyday business needs as the starting point.</p>
+                <ol class="question-list">
+                    <li><div><strong>Will you sell products online?</strong><p>A dynamic site is usually the better fit for products, stock and orders.</p></div></li>
+                    <li><div><strong>Will your content change regularly?</strong><p>If you publish or change information every week, choose dynamic.</p></div></li>
+                    <li><div><strong>Do you want to make updates yourself?</strong><p>An admin dashboard gives you control without involving a developer each time.</p></div></li>
+                    <li><div><strong>Is your main goal calls, enquiries and WhatsApp messages?</strong><p>A focused static site is often all you need to get started.</p></div></li>
+                </ol>
+                <p>You can start static and move to dynamic as your business grows. Keep your URLs or set up redirects carefully when rebuilding. Our <a href="website-migration-seo-case-study">website migration case study</a> explains why that matters.</p>
+            </section>
+
+            <section class="article-section" id="examples" aria-labelledby="examples-title">
+                <span class="section-number">06 / PUTTING IT INTO PRACTICE</span>
+                <h2 id="examples-title">Different businesses. Different needs.</h2>
+                <p>A construction company needs to showcase its work and attract enquiries. A retailer needs to keep its products up to date. These examples from our <a href="web-design-sri-lanka#portfolio">portfolio</a> show why the right approach depends on the business.</p>
+                <div class="example-grid">
+                    <a class="example-card" href="web-design-sri-lanka#portfolio">
+                        <div class="example-browser" aria-hidden="true"><i></i><i></i><i></i><span>Business website</span></div>
+                        <img src="assets/img/portfolio/gaura-construction-desktop.webp" alt="Gaura Construction website showcasing its construction services" width="1200" height="686" loading="lazy" decoding="async">
+                        <div class="example-card-copy"><span>A fit for static</span><h3>Service-led businesses <span aria-hidden="true">&nearr;</span></h3><p>Projects, services and a clear route to an enquiry.</p></div>
+                    </a>
+                    <a class="example-card" href="web-design-sri-lanka#portfolio">
+                        <div class="example-browser" aria-hidden="true"><i></i><i></i><i></i><span>Product catalogue</span></div>
+                        <img src="assets/img/portfolio/dagtech-desktop.webp" alt="DAGTECH online shop showing its computer and technology product catalogue" width="1200" height="686" loading="lazy" decoding="async">
+                        <div class="example-card-copy"><span>A fit for dynamic</span><h3>Product-led businesses <span aria-hidden="true">&nearr;</span></h3><p>A catalogue your team can manage as products change.</p></div>
+                    </a>
+                </div>
+                <p>For package details and running costs, read our <a href="website-cost-sri-lanka">website cost in Sri Lanka guide</a>.</p>
+            </section>
+
+            <div class="guide-consultation">
+                <span class="guide-kicker">Let's make the right choice</span>
+                <h2>Your business comes first.<br>The technology follows.</h2>
+                <p>Tell us what you want your website to do. We will recommend the right approach and give you a clear, fixed price.</p>
+                <div class="guide-actions">
+                    <a class="guide-button" href="web-design-sri-lanka#pricing">Explore website packages <span aria-hidden="true">&rarr;</span></a>
+                    <a class="guide-text-link" href="https://wa.me/94778064714?text=Hi%2C%20should%20I%20get%20a%20static%20or%20dynamic%20website%3F" target="_blank" rel="noopener noreferrer">Let's talk on WhatsApp <span aria-hidden="true">&nearr;</span></a>
                 </div>
             </div>
-
-            <div class="author-box">
-                <img src="assets/img/seo-expert-portrait.webp" alt="Buddhika S Weerasekara" width="64" height="64" loading="lazy">
-                <p><strong>Buddhika S Weerasekara</strong> is an SEO consultant and web designer in Sri Lanka who builds fast, search-ready websites for local and international businesses. <a href="about">More about Buddhika</a>.</p>
+            <div class="guide-author">
+                <img src="assets/img/seo-expert-portrait.webp" alt="Buddhika S Weerasekara" width="60" height="60" loading="lazy" decoding="async">
+                <div><span>About the author</span><h3>Buddhika S Weerasekara</h3><p>SEO consultant and web designer in Sri Lanka, building fast, search-ready websites for local and international businesses. <a href="about">Get to know Buddhika &rarr;</a></p></div>
             </div>
-        </div>
+        </article>
     </div>
-</article>
+</div>
 
-<section class="section section-alt" id="faq">
-    <div class="container">
-        <div class="section-head center">
-            <span class="eyebrow">Common Questions</span>
-            <h2>Static vs Dynamic Website: FAQs</h2>
+<section class="guide-faq" id="faq" aria-labelledby="faq-title">
+    <div class="container faq-layout">
+        <div class="faq-intro">
+            <span class="guide-kicker">A few more answers</span>
+            <h2 id="faq-title">Still weighing<br>your options?</h2>
+            <p>Here are the questions business owners ask us most often about static and dynamic websites.</p>
+            <a href="contact">Get advice for your business <span aria-hidden="true">&rarr;</span></a>
         </div>
         <div class="faq-list">
             <details class="faq-item" open>
@@ -376,27 +424,35 @@
     </div>
 </section>
 
-<section class="section">
+<section class="related-guides" aria-labelledby="related-title">
     <div class="container">
-        <div class="section-head center">
-            <span class="eyebrow">Keep Reading</span>
-            <h2>Related Web Design Guides</h2>
+        <div class="related-heading">
+            <div><span class="guide-kicker">Keep exploring</span><h2 id="related-title">A little more clarity.</h2></div>
+            <a href="blog">All guides <span aria-hidden="true">&nearr;</span></a>
         </div>
-        <div class="grid grid-4">
-            <a href="website-cost-sri-lanka" class="explore-card"><h3>Website Cost in Sri Lanka</h3><p>Real web design prices, running costs and what changes the quote.</p></a>
-            <a href="best-web-design-company-sri-lanka" class="explore-card"><h3>Choosing a Web Design Company</h3><p>12 checks to compare web designers before paying a deposit.</p></a>
-            <a href="seo-friendly-website-design" class="explore-card"><h3>SEO-Friendly Website Design</h3><p>The 15 SEO essentials every new website needs on day one.</p></a>
-            <a href="web-design-sri-lanka" class="explore-card"><h3>Web Design Portfolio &amp; Prices</h3><p>See live websites we have built and current package prices.</p></a>
+        <div class="related-grid">
+            <a class="related-card" href="website-cost-sri-lanka">
+                <div class="related-photo"><img src="assets/img/blog/website-cost-sri-lanka-featured-600.webp" alt="Business owner planning a website budget with a laptop and calculator" width="600" height="315" loading="lazy" decoding="async"></div>
+                <span>Planning &amp; pricing</span><h3>What does a website cost in Sri Lanka?</h3><p>Understand the build price, running costs and what changes your quote.</p><div class="read-link">Read the guide <b aria-hidden="true">&rarr;</b></div>
+            </a>
+            <a class="related-card" href="best-web-design-company-sri-lanka">
+                <div class="related-photo"><img src="assets/img/blog/best-web-design-company-sri-lanka-featured-600.webp" alt="Professionals discussing a website design on a laptop" width="600" height="315" loading="lazy" decoding="async"></div>
+                <span>Finding your partner</span><h3>How to choose a web design company.</h3><p>The questions to ask before you commit to a designer or agency.</p><div class="read-link">Read the guide <b aria-hidden="true">&rarr;</b></div>
+            </a>
+            <a class="related-card" href="seo-friendly-website-design">
+                <div class="related-photo"><img src="assets/img/blog/seo-friendly-website-design-featured-600.webp" alt="A website and analytics dashboard displayed on a laptop beside a mobile phone" width="600" height="315" loading="lazy" decoding="async"></div>
+                <span>Designing for discovery</span><h3>A website built with SEO in mind.</h3><p>Get the essentials in place so your website is ready to be found.</p><div class="read-link">Read the guide <b aria-hidden="true">&rarr;</b></div>
+            </a>
         </div>
     </div>
 </section>
-
+</main>
 <footer class="site-footer">
     <div class="container">
         <div class="footer-grid">
             <div>
                 <img loading="lazy" class="brand-logo" src="assets/img/seo-logo.png" width="1568" height="672" alt="SEO Consultant Sri Lanka - Buddhika S Weerasekara">
-                <p>Buddhika S Weerasekara &ndash; Sri Lanka&#39;s <a href="/" style="color:#f4d976;font-weight:600;">#1 SEO Consultant in Sri Lanka</a>. As the leading SEO Consultant Sri Lanka, I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.</p>
+                <p>Buddhika S Weerasekara &ndash; an independent <a href="/" style="color:#f4d976;font-weight:600;">SEO Consultant in Sri Lanka</a> since 2010. I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.</p>
             </div>
             <div>
                 <h3>Quick Links</h3>
@@ -444,7 +500,7 @@
             </div>
         </div>
         <div class="copyright-area">
-            <p>SEO Consultant Sri Lanka &ndash; Powered by Applantics (Pvt) Ltd. &copy; Buddhika S Weerasekara. All rights reserved. Developed by <a href="https://seoservice.lk/" target="_blank" rel="noopener">seoservice.lk</a>.</p>
+            <p>SEO Consultant Sri Lanka &ndash; Powered by Applantics (Pvt) Ltd. &copy; Buddhika S Weerasekara. All rights reserved. Developed by <a href="https://seoservice.lk/" target="_blank" rel="nofollow noopener">seoservice.lk</a>.</p>
             <ul>
                 <li><a href="about">Privacy Policy</a></li>
                 <li><a href="about">Terms &amp; Conditions</a></li>
@@ -461,26 +517,8 @@
 <a href="https://wa.me/94778064714" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
     <i class="fab fa-whatsapp"></i>
 </a>
-<div class="go-top" id="go-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></div>
+<button type="button" class="go-top" id="go-top" aria-label="Back to top"><i class="fas fa-chevron-up" aria-hidden="true"></i></button>
 
-<script>
-(function () {
-    var header = document.getElementById('site-header');
-    var toggle = header.querySelector('.nav-toggle');
-    var mobileMenu = header.querySelector('.mobile-menu');
-    toggle.addEventListener('click', function () {
-        var open = header.classList.toggle('open');
-        toggle.setAttribute('aria-expanded', open);
-        mobileMenu.hidden = !open;
-    });
-    var goTop = document.getElementById('go-top');
-    window.addEventListener('scroll', function () {
-        goTop.classList.toggle('show', window.scrollY > 400);
-    });
-    goTop.addEventListener('click', function () {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-})();
-</script>
+<script src="assets/js/website-guide.js" defer></script>
 </body>
 </html>

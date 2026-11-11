@@ -21,7 +21,7 @@ e, ld, head, breadcrumb_ld = g.e, g.ld, g.head, g.breadcrumb_ld
 ROOT, SITE, HEADER, FOOTER = g.ROOT, g.SITE, g.HEADER, g.FOOTER
 HUB = "case-studies"
 FOOTER = FOOTER.replace(
-    "Buddhika S Weerasekara &ndash; Sri Lanka&#39;s <a href=\"/\" style=\"color:#f4d976;font-weight:600;\">#1 SEO Consultant in Sri Lanka</a>. As the leading SEO Consultant Sri Lanka, I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.",
+    "Buddhika S Weerasekara &ndash; an independent <a href=\"/\" style=\"color:#f4d976;font-weight:600;\">SEO Consultant in Sri Lanka</a> since 2010. I specialize in 100% white-hat SEO, technical audits, and Generative Engine Optimization (GEO) for businesses of all sizes.",
     "SEO Consultant Sri Lanka is powered by Applantics (Pvt) Ltd. Buddhika S Weerasekara provides SEO consulting, technical audits, and Generative Engine Optimization.",
 ).replace(
     '<li><a href="seo-consultant-sri-lanka-guide">SEO consultant guide</a></li>',
@@ -45,6 +45,13 @@ SERVICE_PAGES = {
     "Comprehensive SEO and GEO": ("ai-seo", "AI SEO and GEO services"),
     "Content Cluster SEO": ("on-page-seo-sri-lanka", "On-page and content SEO services"),
 }
+
+
+def nice_date(d):
+    """2026-10-26 -> 26 October 2026, matching the blog post dates."""
+    from datetime import date
+    y, m, dd = map(int, d[:10].split("-"))
+    return f"{dd} {date(y, m, dd):%B} {y}"
 
 
 def dims(path):
@@ -86,14 +93,9 @@ def faqs(c):
         ("What work was carried out?",
          " ".join(s["text"] for s in c["approach"]) if c.get("approach")
          else "The work covered: " + "; ".join(c["methods"]) + "."),
-        ("Can I expect the same results for my business?",
-         "Not necessarily. These are reported outcomes for one campaign, not guarantees. Results depend on the "
-         "website's starting point, competition, market, budget, and how quickly changes are implemented. "
-         "A free SEO review sets a realistic baseline for your own site."),
-        ("Why is the client not named?",
-         "Client names and domains are withheld to protect client confidentiality. The industry, market, "
-         "timeframe, and measured results are reported as recorded for the campaign."),
     ]
+    # Questions that apply to every case ("same results?", "why anonymized?") live once on the hub
+    # (METHODOLOGY below) instead of being repeated on all 30 pages.
     out += [(f["q"], f["a"]) for f in c.get("faq", [])]
     return out
 
@@ -102,7 +104,25 @@ def related(c, cases, n=3):
     others = [x for x in cases if x["slug"] != c["slug"]]
     page_of = lambda x: SERVICE_PAGES.get(x["service"], ("services",))[0]
     score = lambda x: (x["service"] == c["service"]) * 4 + (page_of(x) == page_of(c)) * 2 + (x["industry"] == c["industry"])
-    return sorted(others, key=lambda x: -score(x))[:n]
+    # Break ties by distance after this case in the list, so links spread across all cases
+    # instead of always pointing at the first few entries.
+    idx = {x["slug"]: i for i, x in enumerate(cases)}
+    gap = lambda x: (idx[x["slug"]] - idx[c["slug"]]) % len(cases)
+    return sorted(others, key=lambda x: (-score(x), gap(x)))[:n]
+
+
+METHODOLOGY = [
+    ("Can I expect the same results for my business?",
+     "Not necessarily. Each case study reports the outcomes of one campaign, not a guarantee or benchmark. Results "
+     "depend on the website's starting point, competition, market, budget, and how quickly changes are implemented. "
+     "A free SEO review sets a realistic baseline for your own site."),
+    ("Why are clients not named?",
+     "Client names and domains are withheld to protect client confidentiality. The industry, market, timeframe, and "
+     "measured results are reported as recorded for each campaign."),
+    ("How should the numbers be read?",
+     "Traffic, ranking, enquiry, and technical measures describe different aspects of performance and should not be "
+     "compared as if they were equivalent. Each campaign is measured against its own baseline and measurement setup."),
+]
 
 
 def page(c, out_dir, cases):
@@ -175,6 +195,7 @@ def page(c, out_dir, cases):
         <span class="eyebrow">Case Study &middot; {e(c["service"])}{" &middot; Anonymized" if c.get("anonymized", True) else ""}</span>
         <h1>{e(c["title"])}</h1>
         <p>{e(c["description"])}</p>
+        <div class="post-meta"><span><i class="fas fa-calendar-alt"></i>Updated <time datetime="{c.get("modified", c["date"])}">{nice_date(c.get("modified", c["date"]))}</time></span></div>
         <div class="breadcrumb"><a href="/">Home</a> / <a href="{HUB}">Case Studies</a> / {e(c["service"])}</div>
     </div>
 </section>
@@ -222,11 +243,9 @@ def page(c, out_dir, cases):
 {rows}            </tbody>
         </table>
         <div class="prose">
-            <h2>How to Interpret These Results</h2>
-            <p>These are reported outcomes for this campaign, not guaranteed benchmarks or forecasts. Traffic, ranking, enquiry, and technical measures describe different aspects of performance and should not be compared as if they were equivalent. A future campaign should be assessed against its own baseline, measurement setup, market, and business goals.</p>
             <h2>Practical Takeaway</h2>
-            <p>For other {e(c["industry"].lower())} businesses considering {e(c["service"])}, this case shows which measures are worth tracking from day one: search visibility, clicks, and the business action that matters most, such as enquiries, sales, or sign-ups. The right priorities depend on the business's starting position, target audience, and objectives. Learn more about <a href="{svc_page[0]}">{e(svc_page[1])}</a>.</p>
-            <p>Client names and domains are omitted from this case study. Results and timeframes are reported as supplied for the campaign.</p>
+            <p>For other {e(c["industry"].lower())} businesses considering {e(c["service"])}, track search visibility, clicks, and the business action that matters most from day one. Learn more about <a href="{svc_page[0]}">{e(svc_page[1])}</a>.</p>
+            <p>These are reported outcomes for this campaign, not a guarantee. See <a href="{HUB}#methodology">how these case studies are reported</a>.</p>
         </div>
     </div>
 </section>
@@ -283,6 +302,11 @@ def hub(cases, out_dir):
                     {"@type": "ListItem", "position": i, "url": f"{SITE}/{c['slug']}", "name": c["title"]}
                     for i, c in enumerate(cases, 1)]}})
     html += ld(breadcrumb_ld([("Home", SITE + "/"), ("Case Studies", url)]))
+    html += ld({"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in METHODOLOGY]})
+    method_items = "".join(
+        f'            <details class="faq-item"{" open" if i == 0 else ""}>\n                <summary>{e(q)}</summary>\n'
+        f'                <p>{e(a)}</p>\n            </details>\n' for i, (q, a) in enumerate(METHODOLOGY))
     html += '    <link rel="icon" type="image/png" href="assets/img/favicon.png">\n</head>\n' + HEADER
     cards = "".join(
         f'            <a href="{c["slug"]}" class="explore-card"><h3>{e(c["title"])}</h3><p>{e(c["industry"])} &middot; {e(c["service"])} &middot; {e(c["markets"])}</p><p>{e(c["summary"])}</p><p><strong>{e(" | ".join(s["value"] + " " + s["label"] for s in c["stats"][:2]))}</strong></p></a>\n'
@@ -304,6 +328,17 @@ def hub(cases, out_dir):
         </div>
         <div class="grid grid-3">
 {cards}        </div>
+    </div>
+</section>
+
+<section class="section section-alt" id="methodology">
+    <div class="container">
+        <div class="section-head center">
+            <span class="eyebrow">Methodology</span>
+            <h2>How These Case Studies Are Reported</h2>
+        </div>
+        <div class="faq-list">
+{method_items}        </div>
     </div>
 </section>
 
