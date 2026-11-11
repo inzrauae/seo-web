@@ -48,9 +48,6 @@ ErrorDocument 500 /500.html
     RewriteCond %{HTTP_HOST} ^www\. [NC]
     RewriteRule ^ https://seoconsultantsrilanka.com%{REQUEST_URI} [R=301,L,NE]
 
-    # Merged pages (one page per search intent)
-    RewriteRule ^seo-specialist-guide-sri-lanka(\.html)?$ /seo-consultant-sri-lanka-guide [R=301,L]
-
     # Retired helper snippet, not a page
     RewriteRule ^header-component(\.html)?$ - [G,L]
     RewriteRule ^single-blog(\.html)?$ - [G,L]

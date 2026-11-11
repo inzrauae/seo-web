@@ -415,6 +415,60 @@
         ]
       ],
       "prompt": "Use case: photorealistic-natural\nAsset type: realistic editorial photograph for a Sri Lankan SEO guide, featured hero and thumbnail.\nStyle/medium: authentic professional DSLR workplace photography, documentary realism, natural window daylight, realistic skin and hands, warm neutral wood and charcoal devices with a small restrained brass desk accessory. Contemporary Sri Lankan setting, everyday smart casual clothing, candid focused expression, physically believable objects and screen perspectives, gentle background blur.\nComposition/framing: wide landscape 1200:630 aspect ratio, full bleed photograph, all main objects comfortably within central 80 percent so a small thumbnail reads clearly, natural three-quarter eye or shoulder level view.\nConstraints: photographic image only, no illustration, CGI, holograms, floating graphics, overlays, logos, watermark or border. Accurate anatomy, natural fingers, no prominent readable gibberish. Real screens contain plausible small indistinct UI details at realistic angles, no giant headline, no fake performance promises.\nSubject: a Sri Lankan male SEO analyst systematically checking a printed audit checklist beside a real laptop showing small restrained diagnostic charts. Eye-level three-quarter candid photo of a tidy real Colombo office desk, charcoal shirt, warm wood, daylight, brass paperclip tray, pale wall and small plant. He holds a pen naturally over the checklist while looking attentively at laptop, accurate anatomy, no staged pose. Practical careful review work; paper text indistinct and not a giant graphic."
+    },
+    {
+      "slug": "home-strategy-session",
+      "files": [
+        "assets/img/home/strategy-session.webp",
+        "assets/img/home/strategy-session-800.webp"
+      ],
+      "dimensions": [
+        [
+          1600,
+          1200
+        ],
+        [
+          800,
+          600
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph for a homepage section image.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: landscape 4:3 aspect ratio, full-bleed photograph, candid but carefully composed, subject inside central 80 percent so it can be cropped to a portrait frame. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: A Sri Lankan SEO consultant in his thirties in a smart casual shirt sits across a wooden table from a small-business owner in a bright Colombo office, pointing at a printed keyword roadmap beside an open charcoal laptop showing a simple line chart. Warm daylight from a large window, a potted plant and a brass desk lamp in soft focus. Both people engaged and relaxed, faces in three-quarter view."
+    },
+    {
+      "slug": "home-monthly-report",
+      "files": [
+        "assets/img/home/monthly-report.webp",
+        "assets/img/home/monthly-report-800.webp"
+      ],
+      "dimensions": [
+        [
+          1600,
+          1200
+        ],
+        [
+          800,
+          600
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph for a homepage section image.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: landscape 4:3 aspect ratio, full-bleed photograph, candid but carefully composed, subject inside central 80 percent so it can be cropped to a portrait frame. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: Over-the-shoulder view of a Sri Lankan business owner reviewing a monthly SEO performance report on a laptop at a tidy wood desk: the screen shows generic rising clicks and impressions line charts with indistinct labels, a printed one-page summary and a cup of Ceylon tea beside it. Late-afternoon window light, calm and confident mood."
+    },
+    {
+      "slug": "home-free-audit",
+      "files": [
+        "assets/img/home/free-audit.webp",
+        "assets/img/home/free-audit-800.webp"
+      ],
+      "dimensions": [
+        [
+          1600,
+          1200
+        ],
+        [
+          800,
+          600
+        ]
+      ],
+      "prompt": "Use case: photorealistic-natural\nAsset type: premium editorial photograph for a homepage section image.\nStyle/medium: realistic professional DSLR photography, natural window light, believable textures, gentle depth of field, warm neutral colour grade, realistic hands and human proportions. Real Sri Lankan contemporary workspace, understated charcoal devices, wood desk, small practical brass details harmonising with a black-and-gold site.\nComposition/framing: landscape 4:3 aspect ratio, full-bleed photograph, candid but carefully composed, subject inside central 80 percent so it can be cropped to a portrait frame. Natural lens perspective.\nConstraints: strictly photographic, no illustration, no 3D render, no floating graphics, no graphic overlays, no titles, logos, watermark or border, no identifiable real public figures. Screens only show plausible generic interfaces with small indistinct text, never nonsensical prominent lettering. No fake price claims. Opaque image.\nPrimary request: Close, friendly scene of a Sri Lankan shop owner inside a small modern retail store holding a smartphone with a generic website on screen while typing a message on a laptop on the counter, products neatly shelved and softly blurred behind. Natural light, welcoming and approachable, suggests requesting a free website review."
     }
   ]
 }
